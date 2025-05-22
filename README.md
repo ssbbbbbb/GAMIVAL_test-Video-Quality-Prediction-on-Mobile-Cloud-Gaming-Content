@@ -1,18 +1,37 @@
 ﻿# GAMIVAL_test-Video-Quality-Prediction-on-Mobile-Cloud-Gaming-Content
 
 ## 第一步
-利用CNN、NSS對影片資料集進行影片特徵提取
+利用CNN對影片資料集進行影片特徵提取
 
 ```
 code code/demo_compute_CNN_feats.py
-code code/demo_compute_NSS_feats.mat
-input Metadata/LIVE-Meta-MobileCloudGaming_metadata
-output feat_files/LIVE-Meta-Mobile-Cloud-Gaming_CNN_bicubic_feats
-output feat_files/demo_compute_NSS_feats
+input Metadata/LIVE-Meta-MobileCloudGaming_metadata.csv
+output feat_files/LIVE-Meta-Mobile-Cloud-Gaming_CNN_bicubic_feats.mat
 ```
 
 
 ## 第二步
+利用NSS對影片資料集進行影片特徵提取
+
+```
+code code/demo_compute_NSS_feats.mat
+input Metadata/LIVE-Meta-MobileCloudGaming_metadata.csv
+output feat_files/LIVE-Meta-Mobile-Cloud-Gaming_NSS_bicubic_feats.mat
+```
+
+
+## 第三步
+把CNN提取的特徵向量與NSS提取的特徵向量合併
+
+```
+code code/combineFeature.mat
+input feat_files/LIVE-Meta-Mobile-Cloud-Gaming_CNN_bicubic_feats.mat
+input feat_files/LIVE-Meta-Mobile-Cloud-Gaming_NSS_bicubic_feats.mat
+output feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat
+```
+
+
+## 第四步
 將資料集按照content分成訓練集:資料集=8:2
 避免訓練與測試資料相似
 
@@ -23,7 +42,7 @@ output LIVE-Meta-Gaming_idx.npy
 ```
 
 
-## 第三步
+## 第五步
 對SVR進行主觀評分訓練
 
 ```
