@@ -1,0 +1,4214 @@
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_bicubic_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_bicubic_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 128.0, 'gamma': 0.00390625}
+SRCC_train: 0.786536942434646
+KRCC_train: 0.5965031315240084
+PLCC_train: 0.7792263255297551
+RMSE_train: 12.106762661732759
+======================================================
+SRCC_test: 0.5236266407389402
+KRCC_test: 0.3630252100840336
+PLCC_test: 0.6005235230972801
+RMSE_test: 14.69306696989682
+======================================================
+ -- 15.67 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 512.0, 'gamma': 0.00390625}
+SRCC_train: 0.8160827742330367
+KRCC_train: 0.6450706553238437
+PLCC_train: 0.8108862618319702
+RMSE_train: 10.986744551507131
+======================================================
+SRCC_test: 0.7085144801722342
+KRCC_test: 0.5025210084033613
+PLCC_test: 0.7470898372021907
+RMSE_test: 13.506487660325298
+======================================================
+ -- 13.96 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 256.0, 'gamma': 0.001953125}
+SRCC_train: 0.7555582923536994
+KRCC_train: 0.5578983994432846
+PLCC_train: 0.746170947919816
+RMSE_train: 12.653852641981674
+======================================================
+SRCC_test: 0.6595944162789081
+KRCC_test: 0.4761904761904761
+PLCC_test: 0.697347301797016
+RMSE_test: 13.997859607346296
+======================================================
+ -- 14.14 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.00390625}
+SRCC_train: 0.862392438291628
+KRCC_train: 0.7092671767080685
+PLCC_train: 0.8556467630688541
+RMSE_train: 9.930214586232564
+======================================================
+SRCC_test: 0.7512327244947565
+KRCC_test: 0.5341736694677871
+PLCC_test: 0.7457309537261962
+RMSE_test: 12.603497396052152
+======================================================
+ -- 14.67 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.00390625}
+SRCC_train: 0.8642607732743193
+KRCC_train: 0.7104154071718514
+PLCC_train: 0.857512676406918
+RMSE_train: 9.965919621601149
+======================================================
+SRCC_test: 0.6083894714910757
+KRCC_test: 0.4417366946778711
+PLCC_test: 0.6976831055132411
+RMSE_test: 12.859718084174911
+======================================================
+ -- 13.93 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 512.0, 'gamma': 0.0009765625}
+SRCC_train: 0.7325462223291506
+KRCC_train: 0.5398509910062848
+PLCC_train: 0.7273412587054692
+RMSE_train: 12.947492073938685
+======================================================
+SRCC_test: 0.6621501493159246
+KRCC_test: 0.47170868347338935
+PLCC_test: 0.6582955670169477
+RMSE_test: 15.17928768419586
+======================================================
+ -- 13.83 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.8029, median=0.8013, std=0.0499
+KRCC Train: mean=0.6265, median=0.6208, std=0.0675
+PLCC Train: mean=0.7961, median=0.7951, std=0.0501
+RMSE Train: mean=11.4318, median=11.5468, std=1.2144
+======================================================
+Average testing results:
+SRCC Test: mean=0.6523, median=0.6609, std=0.0726
+KRCC Test: mean=0.4649, median=0.4739, std=0.0537
+PLCC Test: mean=0.6911, median=0.6975, std=0.0508
+RMSE Test: mean=13.8067, median=13.7522, std=0.9256
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_bicubic_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_bicubic_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 512.0, 'gamma': 0.0009765625}
+SRCC_train: 0.7505529537888619
+KRCC_train: 0.5624217118997912
+PLCC_train: 0.7329632540410611
+RMSE_train: 13.140714414341481
+======================================================
+SRCC_test: 0.5027640808389471
+KRCC_test: 0.3397759103641456
+PLCC_test: 0.5197260753434199
+RMSE_test: 15.698674455373594
+======================================================
+ -- 14.78 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.0009765625}
+SRCC_train: 0.761042928817045
+KRCC_train: 0.5721928157361693
+PLCC_train: 0.7419113921732094
+RMSE_train: 12.588075747911212
+======================================================
+SRCC_test: 0.6928675602472393
+KRCC_test: 0.4963585434173669
+PLCC_test: 0.7162255779640647
+RMSE_test: 14.179975350132965
+======================================================
+ -- 13.54 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.0078125}
+SRCC_train: 0.9358734195894948
+KRCC_train: 0.817867084203201
+PLCC_train: 0.9273590589338406
+RMSE_train: 7.111820312237668
+======================================================
+SRCC_test: 0.6617612334189873
+KRCC_test: 0.4599439775910364
+PLCC_test: 0.6672593586050083
+RMSE_test: 14.546499884548433
+======================================================
+ -- 13.78 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.001953125}
+SRCC_train: 0.8149970490051243
+KRCC_train: 0.6360065936324666
+PLCC_train: 0.7996541024786727
+RMSE_train: 11.520795380933011
+======================================================
+SRCC_test: 0.7483158552677268
+KRCC_test: 0.5350140056022409
+PLCC_test: 0.7521755481759289
+RMSE_test: 12.465696744481308
+======================================================
+ -- 13.76 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.0009765625}
+SRCC_train: 0.7784246236535487
+KRCC_train: 0.5849277354253978
+PLCC_train: 0.7562018838577284
+RMSE_train: 12.675519408114988
+======================================================
+SRCC_test: 0.6206611570247934
+KRCC_test: 0.44845938375350136
+PLCC_test: 0.5515556304847704
+RMSE_test: 14.973036706164661
+======================================================
+ -- 13.97 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.001953125}
+SRCC_train: 0.8159589130150012
+KRCC_train: 0.6357804270259639
+PLCC_train: 0.7950174984061948
+RMSE_train: 11.444046285361962
+======================================================
+SRCC_test: 0.7225362872421695
+KRCC_test: 0.5299719887955182
+PLCC_test: 0.752647275124388
+RMSE_test: 13.277023564673629
+======================================================
+ -- 14.19 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.8095, median=0.7967, std=0.0617
+KRCC Train: mean=0.6349, median=0.6104, std=0.0868
+PLCC Train: mean=0.7922, median=0.7756, std=0.0654
+RMSE Train: mean=11.4135, median=12.0544, std=2.0196
+======================================================
+Average testing results:
+SRCC Test: mean=0.6582, median=0.6773, std=0.0807
+KRCC Test: mean=0.4683, median=0.4782, std=0.0659
+PLCC Test: mean=0.6599, median=0.6917, std=0.0929
+RMSE Test: mean=14.1902, median=14.3632, std=1.0664
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.001953125}
+SRCC_train: 0.8358027812620714
+KRCC_train: 0.6666840640222685
+PLCC_train: 0.8182206138552777
+RMSE_train: 11.105404809450247
+======================================================
+SRCC_test: 0.5176401138967983
+KRCC_test: 0.346218487394958
+PLCC_test: 0.5769731724498914
+RMSE_test: 15.008314770233502
+======================================================
+ -- 25.56 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.00390625}
+SRCC_train: 0.8560531636436458
+KRCC_train: 0.7017862812622103
+PLCC_train: 0.8510692053282161
+RMSE_train: 9.857470401826836
+======================================================
+SRCC_test: 0.7587679699979164
+KRCC_test: 0.5647058823529412
+PLCC_test: 0.7760970668254541
+RMSE_test: 12.813415430466321
+======================================================
+ -- 33.29 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.001953125}
+SRCC_train: 0.8091037721517887
+KRCC_train: 0.6319937369519832
+PLCC_train: 0.8051861872081734
+RMSE_train: 11.271445195722173
+======================================================
+SRCC_test: 0.6728314466282379
+KRCC_test: 0.4792717086834734
+PLCC_test: 0.6947452748994447
+RMSE_test: 14.04712395222418
+======================================================
+ -- 32.33 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.00390625}
+SRCC_train: 0.8546481010835582
+KRCC_train: 0.7046394599903981
+PLCC_train: 0.8530895421976092
+RMSE_train: 10.01088043525754
+======================================================
+SRCC_test: 0.742329328425585
+KRCC_test: 0.530252100840336
+PLCC_test: 0.7424484622709568
+RMSE_test: 12.672658071179237
+======================================================
+ -- 32.06 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.00390625}
+SRCC_train: 0.8638100334585341
+KRCC_train: 0.7104502020343902
+PLCC_train: 0.8613893797838809
+RMSE_train: 9.839663392887052
+======================================================
+SRCC_test: 0.663157163691923
+KRCC_test: 0.47983193277310915
+PLCC_test: 0.6870728665784942
+RMSE_test: 13.04248833152211
+======================================================
+ -- 32.00 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.00390625}
+SRCC_train: 0.8609708826039526
+KRCC_train: 0.7063096133922642
+PLCC_train: 0.856534169670923
+RMSE_train: 9.73671772344092
+======================================================
+SRCC_test: 0.7016181679283283
+KRCC_test: 0.511484593837535
+PLCC_test: 0.7210325315200872
+RMSE_test: 13.972252843212042
+======================================================
+ -- 32.10 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.8467, median=0.8554, std=0.0191
+KRCC Train: mean=0.6870, median=0.7032, std=0.0286
+PLCC Train: mean=0.8409, median=0.8521, std=0.0212
+RMSE Train: mean=10.3036, median=9.9342, std=0.6326
+======================================================
+Average testing results:
+SRCC Test: mean=0.6761, median=0.6872, std=0.0787
+KRCC Test: mean=0.4853, median=0.4957, std=0.0688
+PLCC Test: mean=0.6997, median=0.7079, std=0.0624
+RMSE Test: mean=13.5927, median=13.5074, std=0.8278
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files1/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_bicubic_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result1/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files1/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result1/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.001953125}
+SRCC_train: 0.8135196892142728
+KRCC_train: 0.6390958209435502
+PLCC_train: 0.7945967506079452
+RMSE_train: 12.135523411510915
+======================================================
+SRCC_test: 0.5074335125805612
+KRCC_test: 0.3464169520729413
+PLCC_test: 0.560205103442487
+RMSE_test: 15.471638270989178
+======================================================
+ -- 15.00 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.00390625}
+SRCC_train: 0.8420008594753734
+KRCC_train: 0.6847378515124866
+PLCC_train: 0.8325750788037565
+RMSE_train: 10.751329128111923
+======================================================
+SRCC_test: 0.7198388725387541
+KRCC_test: 0.5191311716159901
+PLCC_test: 0.7606167942853763
+RMSE_test: 13.492929515951005
+======================================================
+ -- 14.17 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.001953125}
+SRCC_train: 0.7878873468299064
+KRCC_train: 0.6105793120221786
+PLCC_train: 0.7837524515653395
+RMSE_train: 12.202118187661586
+======================================================
+SRCC_test: 0.6432460996126971
+KRCC_test: 0.4604815990499566
+PLCC_test: 0.6742643338847658
+RMSE_test: 14.763802683468764
+======================================================
+ -- 14.05 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.001953125}
+SRCC_train: 0.7882741970377776
+KRCC_train: 0.6129479912142092
+PLCC_train: 0.7839555551901809
+RMSE_train: 12.314045153708097
+======================================================
+SRCC_test: 0.7349002646289925
+KRCC_test: 0.5132202774668873
+PLCC_test: 0.7586616497789359
+RMSE_test: 12.584809699293146
+======================================================
+ -- 14.17 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.00390625}
+SRCC_train: 0.8501061612751366
+KRCC_train: 0.690568464616491
+PLCC_train: 0.8461236549125044
+RMSE_train: 10.660417306407217
+======================================================
+SRCC_test: 0.6191031867908843
+KRCC_test: 0.44701640456052744
+PLCC_test: 0.6388094223575749
+RMSE_test: 14.182947437201264
+======================================================
+ -- 14.06 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.00390625}
+SRCC_train: 0.8419090711449605
+KRCC_train: 0.6816585477411847
+PLCC_train: 0.8322100936799579
+RMSE_train: 10.781765803989453
+======================================================
+SRCC_test: 0.7078803676743246
+KRCC_test: 0.5211359347988772
+PLCC_test: 0.6712047747712515
+RMSE_test: 15.449327574049287
+======================================================
+ -- 14.18 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.8206, median=0.8277, std=0.0257
+KRCC Train: mean=0.6533, median=0.6604, std=0.0338
+PLCC Train: mean=0.8122, median=0.8134, std=0.0254
+RMSE Train: mean=11.4742, median=11.4586, std=0.7457
+======================================================
+Average testing results:
+SRCC Test: mean=0.6554, median=0.6756, std=0.0781
+KRCC Test: mean=0.4679, median=0.4869, std=0.0616
+PLCC Test: mean=0.6773, median=0.6727, std=0.0693
+RMSE Test: mean=14.3242, median=14.4734, std=1.0418
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.00390625}
+SRCC_train: 0.9103631092148836
+KRCC_train: 0.7740257480862909
+PLCC_train: 0.899963313140314
+RMSE_train: 8.421530847392075
+======================================================
+SRCC_test: 0.6297729008958954
+KRCC_test: 0.44453781512605034
+PLCC_test: 0.6314081023147169
+RMSE_test: 14.249184883867638
+======================================================
+ -- 17.21 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.0078125}
+SRCC_train: 0.9549993423094107
+KRCC_train: 0.8637041740868665
+PLCC_train: 0.9466822415104001
+RMSE_train: 6.04846783498735
+======================================================
+SRCC_test: 0.7922772414751024
+KRCC_test: 0.5820728291316526
+PLCC_test: 0.8020827239779538
+RMSE_test: 12.134751329071383
+======================================================
+ -- 15.64 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.00390625}
+SRCC_train: 0.897553483305049
+KRCC_train: 0.7554975643702156
+PLCC_train: 0.8940676049559355
+RMSE_train: 8.513749462764482
+======================================================
+SRCC_test: 0.6891103548857558
+KRCC_test: 0.5016806722689076
+PLCC_test: 0.7452435345892561
+RMSE_test: 13.022507836284044
+======================================================
+ -- 15.16 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.00390625}
+SRCC_train: 0.8880526523566907
+KRCC_train: 0.7516647167116881
+PLCC_train: 0.8904502481929102
+RMSE_train: 8.731443356410635
+======================================================
+SRCC_test: 0.7796999791652197
+KRCC_test: 0.5607843137254901
+PLCC_test: 0.7915288257858484
+RMSE_test: 11.560871637968479
+======================================================
+ -- 15.20 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.00390625}
+SRCC_train: 0.9019797965154962
+KRCC_train: 0.7595283556454739
+PLCC_train: 0.9010820113174891
+RMSE_train: 8.400428454054573
+======================================================
+SRCC_test: 0.6542120980623654
+KRCC_test: 0.4789915966386554
+PLCC_test: 0.6927747354518352
+RMSE_test: 12.944937959615316
+======================================================
+ -- 15.02 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.00390625}
+SRCC_train: 0.8987500732085991
+KRCC_train: 0.7572840870117163
+PLCC_train: 0.8904980461819594
+RMSE_train: 8.583925078385613
+======================================================
+SRCC_test: 0.7533231474407944
+KRCC_test: 0.5591036414565826
+PLCC_test: 0.7813294307468226
+RMSE_test: 12.58526616899218
+======================================================
+ -- 15.42 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.9086, median=0.9004, std=0.0218
+KRCC Train: mean=0.7770, median=0.7584, std=0.0394
+PLCC Train: mean=0.9038, median=0.8970, std=0.0196
+RMSE Train: mean=8.1166, median=8.4676, std=0.9314
+======================================================
+Average testing results:
+SRCC Test: mean=0.7164, median=0.7212, std=0.0622
+KRCC Test: mean=0.5212, median=0.5304, std=0.0496
+PLCC Test: mean=0.7407, median=0.7633, std=0.0609
+RMSE Test: mean=12.7496, median=12.7651, std=0.8346
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.00390625}
+SRCC_train: 0.9103631092148836
+KRCC_train: 0.7740257480862909
+PLCC_train: 0.899963313140314
+RMSE_train: 8.421530847392075
+======================================================
+SRCC_test: 0.6297729008958954
+KRCC_test: 0.44453781512605034
+PLCC_test: 0.6314081023147169
+RMSE_test: 14.249184883867638
+======================================================
+ -- 17.01 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.0078125}
+SRCC_train: 0.9549993423094107
+KRCC_train: 0.8637041740868665
+PLCC_train: 0.9466822415104001
+RMSE_train: 6.04846783498735
+======================================================
+SRCC_test: 0.7922772414751024
+KRCC_test: 0.5820728291316526
+PLCC_test: 0.8020827239779538
+RMSE_test: 12.134751329071383
+======================================================
+ -- 16.89 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.00390625}
+SRCC_train: 0.897553483305049
+KRCC_train: 0.7554975643702156
+PLCC_train: 0.8940676049559355
+RMSE_train: 8.513749462764482
+======================================================
+SRCC_test: 0.6891103548857558
+KRCC_test: 0.5016806722689076
+PLCC_test: 0.7452435345892561
+RMSE_test: 13.022507836284044
+======================================================
+ -- 21.36 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.00390625}
+SRCC_train: 0.8880526523566907
+KRCC_train: 0.7516647167116881
+PLCC_train: 0.8904502481929102
+RMSE_train: 8.731443356410635
+======================================================
+SRCC_test: 0.7796999791652197
+KRCC_test: 0.5607843137254901
+PLCC_test: 0.7915288257858484
+RMSE_test: 11.560871637968479
+======================================================
+ -- 33.58 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.00390625}
+SRCC_train: 0.9019797965154962
+KRCC_train: 0.7595283556454739
+PLCC_train: 0.9010820113174891
+RMSE_train: 8.400428454054573
+======================================================
+SRCC_test: 0.6542120980623654
+KRCC_test: 0.4789915966386554
+PLCC_test: 0.6927747354518352
+RMSE_test: 12.944937959615316
+======================================================
+ -- 34.12 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.00390625}
+SRCC_train: 0.8987500732085991
+KRCC_train: 0.7572840870117163
+PLCC_train: 0.8904980461819594
+RMSE_train: 8.583925078385613
+======================================================
+SRCC_test: 0.7533231474407944
+KRCC_test: 0.5591036414565826
+PLCC_test: 0.7813294307468226
+RMSE_test: 12.58526616899218
+======================================================
+ -- 25.85 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.9086, median=0.9004, std=0.0218
+KRCC Train: mean=0.7770, median=0.7584, std=0.0394
+PLCC Train: mean=0.9038, median=0.8970, std=0.0196
+RMSE Train: mean=8.1166, median=8.4676, std=0.9314
+======================================================
+Average testing results:
+SRCC Test: mean=0.7164, median=0.7212, std=0.0622
+KRCC Test: mean=0.5212, median=0.5304, std=0.0496
+PLCC Test: mean=0.7407, median=0.7633, std=0.0609
+RMSE Test: mean=12.7496, median=12.7651, std=0.8346
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.001953125}
+SRCC_train: 0.8407590646226645
+KRCC_train: 0.6721115199342992
+PLCC_train: 0.8291189284404201
+RMSE_train: 11.174790000993003
+======================================================
+SRCC_test: 0.5935096572916089
+KRCC_test: 0.41213366612650293
+PLCC_test: 0.5699123226289928
+RMSE_test: 15.34746183797664
+======================================================
+ -- 16.95 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.0078125}
+SRCC_train: 0.9461053936085078
+KRCC_train: 0.848488221782855
+PLCC_train: 0.9328266843243198
+RMSE_train: 6.993846020714737
+======================================================
+SRCC_test: 0.7522866969844738
+KRCC_test: 0.5494044796799895
+PLCC_test: 0.7645878004295392
+RMSE_test: 13.395629003395342
+======================================================
+ -- 16.93 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.001953125}
+SRCC_train: 0.8234271614879831
+KRCC_train: 0.6522924492641878
+PLCC_train: 0.820656672395977
+RMSE_train: 11.226618884844573
+======================================================
+SRCC_test: 0.6537061763415953
+KRCC_test: 0.453749001805242
+PLCC_test: 0.6980908101375147
+RMSE_test: 14.314368218676693
+======================================================
+ -- 16.82 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.00390625}
+SRCC_train: 0.8807947142775646
+KRCC_train: 0.7378435683175278
+PLCC_train: 0.8776155939778281
+RMSE_train: 9.508314948563582
+======================================================
+SRCC_test: 0.7668847621964403
+KRCC_test: 0.5502495623128174
+PLCC_test: 0.7831368555003824
+RMSE_test: 12.012338171217873
+======================================================
+ -- 15.28 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.00390625}
+SRCC_train: 0.8886957967053623
+KRCC_train: 0.7400316282863735
+PLCC_train: 0.8839858980758952
+RMSE_train: 9.350871653081837
+======================================================
+SRCC_test: 0.6216105491409057
+KRCC_test: 0.45318795203484913
+PLCC_test: 0.650127848901388
+RMSE_test: 14.0070779514123
+======================================================
+ -- 15.51 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.00390625}
+SRCC_train: 0.8802004187403495
+KRCC_train: 0.7314750382173577
+PLCC_train: 0.8674066914041523
+RMSE_train: 9.67608337322441
+======================================================
+SRCC_test: 0.7437253128288522
+KRCC_test: 0.5564671846157503
+PLCC_test: 0.7497853187519954
+RMSE_test: 13.790524208617967
+======================================================
+ -- 15.20 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.8767, median=0.8805, std=0.0390
+KRCC Train: mean=0.7304, median=0.7347, std=0.0627
+PLCC Train: mean=0.8686, median=0.8725, std=0.0372
+RMSE Train: mean=9.6551, median=9.5922, std=1.4128
+======================================================
+Average testing results:
+SRCC Test: mean=0.6886, median=0.6987, std=0.0683
+KRCC Test: mean=0.4959, median=0.5016, std=0.0579
+PLCC Test: mean=0.7026, median=0.7239, std=0.0741
+RMSE Test: mean=13.8112, median=13.8988, std=1.0050
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.00390625}
+SRCC_train: 0.9103631092148836
+KRCC_train: 0.7740257480862909
+PLCC_train: 0.899963313140314
+RMSE_train: 8.421530847392075
+======================================================
+SRCC_test: 0.6297729008958954
+KRCC_test: 0.44453781512605034
+PLCC_test: 0.6314081023147169
+RMSE_test: 14.249184883867638
+======================================================
+ -- 17.40 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.0078125}
+SRCC_train: 0.9549993423094107
+KRCC_train: 0.8637041740868665
+PLCC_train: 0.9466822415104001
+RMSE_train: 6.04846783498735
+======================================================
+SRCC_test: 0.7922772414751024
+KRCC_test: 0.5820728291316526
+PLCC_test: 0.8020827239779538
+RMSE_test: 12.134751329071383
+======================================================
+ -- 16.69 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.00390625}
+SRCC_train: 0.897553483305049
+KRCC_train: 0.7554975643702156
+PLCC_train: 0.8940676049559355
+RMSE_train: 8.513749462764482
+======================================================
+SRCC_test: 0.6891103548857558
+KRCC_test: 0.5016806722689076
+PLCC_test: 0.7452435345892561
+RMSE_test: 13.022507836284044
+======================================================
+ -- 16.85 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.00390625}
+SRCC_train: 0.8880526523566907
+KRCC_train: 0.7516647167116881
+PLCC_train: 0.8904502481929102
+RMSE_train: 8.731443356410635
+======================================================
+SRCC_test: 0.7796999791652197
+KRCC_test: 0.5607843137254901
+PLCC_test: 0.7915288257858484
+RMSE_test: 11.560871637968479
+======================================================
+ -- 17.18 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.00390625}
+SRCC_train: 0.9019797965154962
+KRCC_train: 0.7595283556454739
+PLCC_train: 0.9010820113174891
+RMSE_train: 8.400428454054573
+======================================================
+SRCC_test: 0.6542120980623654
+KRCC_test: 0.4789915966386554
+PLCC_test: 0.6927747354518352
+RMSE_test: 12.944937959615316
+======================================================
+ -- 16.54 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.00390625}
+SRCC_train: 0.8987500732085991
+KRCC_train: 0.7572840870117163
+PLCC_train: 0.8904980461819594
+RMSE_train: 8.583925078385613
+======================================================
+SRCC_test: 0.7533231474407944
+KRCC_test: 0.5591036414565826
+PLCC_test: 0.7813294307468226
+RMSE_test: 12.58526616899218
+======================================================
+ -- 16.60 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.9086, median=0.9004, std=0.0218
+KRCC Train: mean=0.7770, median=0.7584, std=0.0394
+PLCC Train: mean=0.9038, median=0.8970, std=0.0196
+RMSE Train: mean=8.1166, median=8.4676, std=0.9314
+======================================================
+Average testing results:
+SRCC Test: mean=0.7164, median=0.7212, std=0.0622
+KRCC Test: mean=0.5212, median=0.5304, std=0.0496
+PLCC Test: mean=0.7407, median=0.7633, std=0.0609
+RMSE Test: mean=12.7496, median=12.7651, std=0.8346
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files_old/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.001953125}
+SRCC_train: 0.8358027812620714
+KRCC_train: 0.6666840640222685
+PLCC_train: 0.8182206138552777
+RMSE_train: 11.105404809450247
+======================================================
+SRCC_test: 0.5176401138967983
+KRCC_test: 0.346218487394958
+PLCC_test: 0.5769731724498914
+RMSE_test: 15.008314770233502
+======================================================
+ -- 16.92 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.00390625}
+SRCC_train: 0.8560531636436458
+KRCC_train: 0.7017862812622103
+PLCC_train: 0.8510692053282161
+RMSE_train: 9.857470401826836
+======================================================
+SRCC_test: 0.7587679699979164
+KRCC_test: 0.5647058823529412
+PLCC_test: 0.7760970668254541
+RMSE_test: 12.813415430466321
+======================================================
+ -- 16.83 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.001953125}
+SRCC_train: 0.8091037721517887
+KRCC_train: 0.6319937369519832
+PLCC_train: 0.8051861872081734
+RMSE_train: 11.271445195722173
+======================================================
+SRCC_test: 0.6728314466282379
+KRCC_test: 0.4792717086834734
+PLCC_test: 0.6947452748994447
+RMSE_test: 14.04712395222418
+======================================================
+ -- 16.80 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.00390625}
+SRCC_train: 0.8546481010835582
+KRCC_train: 0.7046394599903981
+PLCC_train: 0.8530895421976092
+RMSE_train: 10.01088043525754
+======================================================
+SRCC_test: 0.742329328425585
+KRCC_test: 0.530252100840336
+PLCC_test: 0.7424484622709568
+RMSE_test: 12.672658071179237
+======================================================
+ -- 17.03 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.00390625}
+SRCC_train: 0.8638100334585341
+KRCC_train: 0.7104502020343902
+PLCC_train: 0.8613893797838809
+RMSE_train: 9.839663392887052
+======================================================
+SRCC_test: 0.663157163691923
+KRCC_test: 0.47983193277310915
+PLCC_test: 0.6870728665784942
+RMSE_test: 13.04248833152211
+======================================================
+ -- 16.99 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.00390625}
+SRCC_train: 0.8609708826039526
+KRCC_train: 0.7063096133922642
+PLCC_train: 0.856534169670923
+RMSE_train: 9.73671772344092
+======================================================
+SRCC_test: 0.7016181679283283
+KRCC_test: 0.511484593837535
+PLCC_test: 0.7210325315200872
+RMSE_test: 13.972252843212042
+======================================================
+ -- 16.78 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.8467, median=0.8554, std=0.0191
+KRCC Train: mean=0.6870, median=0.7032, std=0.0286
+PLCC Train: mean=0.8409, median=0.8521, std=0.0212
+RMSE Train: mean=10.3036, median=9.9342, std=0.6326
+======================================================
+Average testing results:
+SRCC Test: mean=0.6761, median=0.6872, std=0.0787
+KRCC Test: mean=0.4853, median=0.4957, std=0.0688
+PLCC Test: mean=0.6997, median=0.7079, std=0.0624
+RMSE Test: mean=13.5927, median=13.5074, std=0.8278
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files_old/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files_old/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 256.0, 'gamma': 0.00390625}
+SRCC_train: 0.9925129883376229
+KRCC_train: 0.9357167710508001
+PLCC_train: 0.9940746616822871
+RMSE_train: 2.0605675948064985
+======================================================
+SRCC_test: 0.9760886172650878
+KRCC_test: 0.86890756302521
+PLCC_test: 0.9850953786135598
+RMSE_test: 3.409812395613344
+======================================================
+ -- 14.65 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 512.0, 'gamma': 0.00390625}
+SRCC_train: 0.9925305392094408
+KRCC_train: 0.942079601955683
+PLCC_train: 0.9951700480747571
+RMSE_train: 1.8701913591209824
+======================================================
+SRCC_test: 0.9842141815403846
+KRCC_test: 0.891596638655462
+PLCC_test: 0.9879266789086146
+RMSE_test: 2.9898115928894526
+======================================================
+ -- 13.96 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 512.0, 'gamma': 0.00390625}
+SRCC_train: 0.9943317623538889
+KRCC_train: 0.9461332034414621
+PLCC_train: 0.9962075449006822
+RMSE_train: 1.6843522522925967
+======================================================
+SRCC_test: 0.9778179040211126
+KRCC_test: 0.876750700280112
+PLCC_test: 0.984314225705068
+RMSE_test: 3.20288733683979
+======================================================
+ -- 14.18 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 512.0, 'gamma': 0.00390625}
+SRCC_train: 0.994051596199734
+KRCC_train: 0.945611280503379
+PLCC_train: 0.9957310128243413
+RMSE_train: 1.7682421471313896
+======================================================
+SRCC_test: 0.9760469477047017
+KRCC_test: 0.8761904761904761
+PLCC_test: 0.9863016399176043
+RMSE_test: 3.1317541105475493
+======================================================
+ -- 13.97 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 512.0, 'gamma': 0.00390625}
+SRCC_train: 0.9936897512576007
+KRCC_train: 0.9444502435629782
+PLCC_train: 0.9961012244799234
+RMSE_train: 1.7023970722701744
+======================================================
+SRCC_test: 0.984005833738454
+KRCC_test: 0.8904761904761903
+PLCC_test: 0.9842656440423544
+RMSE_test: 3.252266997936587
+======================================================
+ -- 14.08 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 512.0, 'gamma': 0.00390625}
+SRCC_train: 0.9938282879327902
+KRCC_train: 0.943227832419466
+PLCC_train: 0.9955633266908076
+RMSE_train: 1.7762266024649709
+======================================================
+SRCC_test: 0.9827001875130216
+KRCC_test: 0.8941176470588235
+PLCC_test: 0.990409332294113
+RMSE_test: 2.771917657120244
+======================================================
+ -- 14.10 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.9935, median=0.9938, std=0.0007
+KRCC Train: mean=0.9429, median=0.9438, std=0.0035
+PLCC Train: mean=0.9955, median=0.9956, std=0.0007
+RMSE Train: mean=1.8103, median=1.7722, std=0.1269
+======================================================
+Average testing results:
+SRCC Test: mean=0.9801, median=0.9803, std=0.0036
+KRCC Test: mean=0.8830, median=0.8836, std=0.0095
+PLCC Test: mean=0.9864, median=0.9857, std=0.0022
+RMSE Test: mean=3.1264, median=3.1673, std=0.2026
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files_old/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files_old/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files_old/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 256.0, 'gamma': 0.00390625}
+SRCC_train: 0.9925129883376229
+KRCC_train: 0.9357167710508001
+PLCC_train: 0.9940746616822871
+RMSE_train: 2.0605675948064985
+======================================================
+SRCC_test: 0.9760886172650878
+KRCC_test: 0.86890756302521
+PLCC_test: 0.9850953786135598
+RMSE_test: 3.409812395613344
+======================================================
+ -- 22.77 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 512.0, 'gamma': 0.00390625}
+SRCC_train: 0.9925305392094408
+KRCC_train: 0.942079601955683
+PLCC_train: 0.9951700480747571
+RMSE_train: 1.8701913591209824
+======================================================
+SRCC_test: 0.9842141815403846
+KRCC_test: 0.891596638655462
+PLCC_test: 0.9879266789086146
+RMSE_test: 2.9898115928894526
+======================================================
+ -- 26.29 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 512.0, 'gamma': 0.00390625}
+SRCC_train: 0.9943317623538889
+KRCC_train: 0.9461332034414621
+PLCC_train: 0.9962075449006822
+RMSE_train: 1.6843522522925967
+======================================================
+SRCC_test: 0.9778179040211126
+KRCC_test: 0.876750700280112
+PLCC_test: 0.984314225705068
+RMSE_test: 3.20288733683979
+======================================================
+ -- 16.37 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 512.0, 'gamma': 0.00390625}
+SRCC_train: 0.994051596199734
+KRCC_train: 0.945611280503379
+PLCC_train: 0.9957310128243413
+RMSE_train: 1.7682421471313896
+======================================================
+SRCC_test: 0.9760469477047017
+KRCC_test: 0.8761904761904761
+PLCC_test: 0.9863016399176043
+RMSE_test: 3.1317541105475493
+======================================================
+ -- 15.97 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 512.0, 'gamma': 0.00390625}
+SRCC_train: 0.9936897512576007
+KRCC_train: 0.9444502435629782
+PLCC_train: 0.9961012244799234
+RMSE_train: 1.7023970722701744
+======================================================
+SRCC_test: 0.984005833738454
+KRCC_test: 0.8904761904761903
+PLCC_test: 0.9842656440423544
+RMSE_test: 3.252266997936587
+======================================================
+ -- 20.06 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 512.0, 'gamma': 0.00390625}
+SRCC_train: 0.9938282879327902
+KRCC_train: 0.943227832419466
+PLCC_train: 0.9955633266908076
+RMSE_train: 1.7762266024649709
+======================================================
+SRCC_test: 0.9827001875130216
+KRCC_test: 0.8941176470588235
+PLCC_test: 0.990409332294113
+RMSE_test: 2.771917657120244
+======================================================
+ -- 25.90 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.9935, median=0.9938, std=0.0007
+KRCC Train: mean=0.9429, median=0.9438, std=0.0035
+PLCC Train: mean=0.9955, median=0.9956, std=0.0007
+RMSE Train: mean=1.8103, median=1.7722, std=0.1269
+======================================================
+Average testing results:
+SRCC Test: mean=0.9801, median=0.9803, std=0.0036
+KRCC Test: mean=0.8830, median=0.8836, std=0.0095
+PLCC Test: mean=0.9864, median=0.9857, std=0.0022
+RMSE Test: mean=3.1264, median=3.1673, std=0.2026
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files_old/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files_old/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 128.0, 'gamma': 0.00390625}
+SRCC_train: 0.9889548131719321
+KRCC_train: 0.9180758524704244
+PLCC_train: 0.9922136684078884
+RMSE_train: 2.3245187160234413
+======================================================
+SRCC_test: 0.9292034169039515
+KRCC_test: 0.7644257703081232
+PLCC_test: 0.9313861430785014
+RMSE_test: 7.58231630851299
+======================================================
+ -- 20.70 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 128.0, 'gamma': 0.00390625}
+SRCC_train: 0.9897190308985714
+KRCC_train: 0.9202157272094641
+PLCC_train: 0.992335176851378
+RMSE_train: 2.4057646615026593
+======================================================
+SRCC_test: 0.8566219876380303
+KRCC_test: 0.6700280112044817
+PLCC_test: 0.8435665208274475
+RMSE_test: 9.500726060004407
+======================================================
+ -- 20.66 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 128.0, 'gamma': 0.0078125}
+SRCC_train: 0.9939732811340326
+KRCC_train: 0.9413013221990256
+PLCC_train: 0.995137542152646
+RMSE_train: 1.8896695486349477
+======================================================
+SRCC_test: 0.943572470310438
+KRCC_test: 0.7994397759103641
+PLCC_test: 0.9616423853206506
+RMSE_test: 5.154988763155727
+======================================================
+ -- 20.93 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 256.0, 'gamma': 0.00390625}
+SRCC_train: 0.9919082765116167
+KRCC_train: 0.9318545581071676
+PLCC_train: 0.9943183891547023
+RMSE_train: 2.086250808885788
+======================================================
+SRCC_test: 0.8907285228140842
+KRCC_test: 0.6991596638655461
+PLCC_test: 0.8808089818556735
+RMSE_test: 8.10719270539212
+======================================================
+ -- 20.52 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 128.0, 'gamma': 0.0078125}
+SRCC_train: 0.9927241164437598
+KRCC_train: 0.9383565516640234
+PLCC_train: 0.9947694101669264
+RMSE_train: 1.936611832447381
+======================================================
+SRCC_test: 0.9459268004722549
+KRCC_test: 0.7985994397759102
+PLCC_test: 0.957707968045729
+RMSE_test: 5.7011004668643634
+======================================================
+ -- 20.52 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 128.0, 'gamma': 0.00390625}
+SRCC_train: 0.9886775767255932
+KRCC_train: 0.9161447459986081
+PLCC_train: 0.9914898544712125
+RMSE_train: 2.441537002837969
+======================================================
+SRCC_test: 0.9396536906287006
+KRCC_test: 0.8013166207759134
+PLCC_test: 0.9511442275515005
+RMSE_test: 6.298267979922489
+======================================================
+ -- 20.71 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.9910, median=0.9908, std=0.0020
+KRCC Train: mean=0.9277, median=0.9260, std=0.0100
+PLCC Train: mean=0.9934, median=0.9933, std=0.0014
+RMSE Train: mean=2.1807, median=2.2054, std=0.2208
+======================================================
+Average testing results:
+SRCC Test: mean=0.9176, median=0.9344, std=0.0330
+KRCC Test: mean=0.7555, median=0.7815, std=0.0524
+PLCC Test: mean=0.9210, median=0.9413, std=0.0440
+RMSE Test: mean=7.0574, median=6.9403, std=1.4935
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files_old/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 128.0, 'gamma': 0.00390625}
+SRCC_train: 0.9889548131719321
+KRCC_train: 0.9180758524704244
+PLCC_train: 0.9922136684078884
+RMSE_train: 2.3245187160234413
+======================================================
+SRCC_test: 0.9292034169039515
+KRCC_test: 0.7644257703081232
+PLCC_test: 0.9313861430785014
+RMSE_test: 7.58231630851299
+======================================================
+ -- 19.33 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 128.0, 'gamma': 0.00390625}
+SRCC_train: 0.9897190308985714
+KRCC_train: 0.9202157272094641
+PLCC_train: 0.992335176851378
+RMSE_train: 2.4057646615026593
+======================================================
+SRCC_test: 0.8566219876380303
+KRCC_test: 0.6700280112044817
+PLCC_test: 0.8435665208274475
+RMSE_test: 9.500726060004407
+======================================================
+ -- 17.38 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 128.0, 'gamma': 0.0078125}
+SRCC_train: 0.9939732811340326
+KRCC_train: 0.9413013221990256
+PLCC_train: 0.995137542152646
+RMSE_train: 1.8896695486349477
+======================================================
+SRCC_test: 0.943572470310438
+KRCC_test: 0.7994397759103641
+PLCC_test: 0.9616423853206506
+RMSE_test: 5.154988763155727
+======================================================
+ -- 17.48 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 256.0, 'gamma': 0.00390625}
+SRCC_train: 0.9919082765116167
+KRCC_train: 0.9318545581071676
+PLCC_train: 0.9943183891547023
+RMSE_train: 2.086250808885788
+======================================================
+SRCC_test: 0.8907285228140842
+KRCC_test: 0.6991596638655461
+PLCC_test: 0.8808089818556735
+RMSE_test: 8.10719270539212
+======================================================
+ -- 17.82 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 128.0, 'gamma': 0.0078125}
+SRCC_train: 0.9927241164437598
+KRCC_train: 0.9383565516640234
+PLCC_train: 0.9947694101669264
+RMSE_train: 1.936611832447381
+======================================================
+SRCC_test: 0.9459268004722549
+KRCC_test: 0.7985994397759102
+PLCC_test: 0.957707968045729
+RMSE_test: 5.7011004668643634
+======================================================
+ -- 17.72 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 128.0, 'gamma': 0.00390625}
+SRCC_train: 0.9886775767255932
+KRCC_train: 0.9161447459986081
+PLCC_train: 0.9914898544712125
+RMSE_train: 2.441537002837969
+======================================================
+SRCC_test: 0.9396536906287006
+KRCC_test: 0.8013166207759134
+PLCC_test: 0.9511442275515005
+RMSE_test: 6.298267979922489
+======================================================
+ -- 17.77 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.9910, median=0.9908, std=0.0020
+KRCC Train: mean=0.9277, median=0.9260, std=0.0100
+PLCC Train: mean=0.9934, median=0.9933, std=0.0014
+RMSE Train: mean=2.1807, median=2.2054, std=0.2208
+======================================================
+Average testing results:
+SRCC Test: mean=0.9176, median=0.9344, std=0.0330
+KRCC Test: mean=0.7555, median=0.7815, std=0.0524
+PLCC Test: mean=0.9210, median=0.9413, std=0.0440
+RMSE Test: mean=7.0574, median=6.9403, std=1.4935
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files_old/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 128.0, 'gamma': 0.00390625}
+SRCC_train: 0.9889548131719321
+KRCC_train: 0.9180758524704244
+PLCC_train: 0.9922136684078884
+RMSE_train: 2.3245187160234413
+======================================================
+SRCC_test: 0.9292034169039515
+KRCC_test: 0.7644257703081232
+PLCC_test: 0.9313861430785014
+RMSE_test: 7.58231630851299
+======================================================
+ -- 18.14 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 128.0, 'gamma': 0.00390625}
+SRCC_train: 0.9897190308985714
+KRCC_train: 0.9202157272094641
+PLCC_train: 0.992335176851378
+RMSE_train: 2.4057646615026593
+======================================================
+SRCC_test: 0.8566219876380303
+KRCC_test: 0.6700280112044817
+PLCC_test: 0.8435665208274475
+RMSE_test: 9.500726060004407
+======================================================
+ -- 15.78 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 128.0, 'gamma': 0.0078125}
+SRCC_train: 0.9939732811340326
+KRCC_train: 0.9413013221990256
+PLCC_train: 0.995137542152646
+RMSE_train: 1.8896695486349477
+======================================================
+SRCC_test: 0.943572470310438
+KRCC_test: 0.7994397759103641
+PLCC_test: 0.9616423853206506
+RMSE_test: 5.154988763155727
+======================================================
+ -- 15.22 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 256.0, 'gamma': 0.00390625}
+SRCC_train: 0.9919082765116167
+KRCC_train: 0.9318545581071676
+PLCC_train: 0.9943183891547023
+RMSE_train: 2.086250808885788
+======================================================
+SRCC_test: 0.8907285228140842
+KRCC_test: 0.6991596638655461
+PLCC_test: 0.8808089818556735
+RMSE_test: 8.10719270539212
+======================================================
+ -- 15.16 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 128.0, 'gamma': 0.0078125}
+SRCC_train: 0.9927241164437598
+KRCC_train: 0.9383565516640234
+PLCC_train: 0.9947694101669264
+RMSE_train: 1.936611832447381
+======================================================
+SRCC_test: 0.9459268004722549
+KRCC_test: 0.7985994397759102
+PLCC_test: 0.957707968045729
+RMSE_test: 5.7011004668643634
+======================================================
+ -- 15.24 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 128.0, 'gamma': 0.00390625}
+SRCC_train: 0.9886775767255932
+KRCC_train: 0.9161447459986081
+PLCC_train: 0.9914898544712125
+RMSE_train: 2.441537002837969
+======================================================
+SRCC_test: 0.9396536906287006
+KRCC_test: 0.8013166207759134
+PLCC_test: 0.9511442275515005
+RMSE_test: 6.298267979922489
+======================================================
+ -- 15.19 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.9910, median=0.9908, std=0.0020
+KRCC Train: mean=0.9277, median=0.9260, std=0.0100
+PLCC Train: mean=0.9934, median=0.9933, std=0.0014
+RMSE Train: mean=2.1807, median=2.2054, std=0.2208
+======================================================
+Average testing results:
+SRCC Test: mean=0.9176, median=0.9344, std=0.0330
+KRCC Test: mean=0.7555, median=0.7815, std=0.0524
+PLCC Test: mean=0.9210, median=0.9413, std=0.0440
+RMSE Test: mean=7.0574, median=6.9403, std=1.4935
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files_old/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 16.0, 'gamma': 0.0078125}
+SRCC_train: 0.9790003159303513
+KRCC_train: 0.878719436031689
+PLCC_train: 0.9833627684304442
+RMSE_train: 3.4233932832194265
+======================================================
+SRCC_test: 0.864859877753431
+KRCC_test: 0.6824587706146926
+PLCC_test: 0.8965659863358064
+RMSE_test: 8.982505938745351
+======================================================
+ -- 15.72 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.00390625}
+SRCC_train: 0.9547684668770263
+KRCC_train: 0.8296798886569241
+PLCC_train: 0.9648778832503533
+RMSE_train: 5.114215139834601
+======================================================
+SRCC_test: 0.895513577331759
+KRCC_test: 0.7198879551820727
+PLCC_test: 0.8882781333872403
+RMSE_test: 8.125771600535648
+======================================================
+ -- 14.46 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.0078125}
+SRCC_train: 0.9758741357384363
+KRCC_train: 0.866544885177453
+PLCC_train: 0.9781517104410047
+RMSE_train: 3.9885040643980534
+======================================================
+SRCC_test: 0.8396902562677963
+KRCC_test: 0.6571428571428571
+PLCC_test: 0.8715381346241416
+RMSE_test: 9.214641870177179
+======================================================
+ -- 14.41 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.0078125}
+SRCC_train: 0.9706243299667098
+KRCC_train: 0.8562978427279052
+PLCC_train: 0.97741564655927
+RMSE_train: 4.141773482420062
+======================================================
+SRCC_test: 0.8303493298145703
+KRCC_test: 0.630812324929972
+PLCC_test: 0.8299650437426218
+RMSE_test: 9.551396858237872
+======================================================
+ -- 14.24 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 32.0, 'gamma': 0.00390625}
+SRCC_train: 0.978173789692357
+KRCC_train: 0.876661348079424
+PLCC_train: 0.9820831822920323
+RMSE_train: 3.6050481385259148
+======================================================
+SRCC_test: 0.9249759735516857
+KRCC_test: 0.7697151424287856
+PLCC_test: 0.9495607209684197
+RMSE_test: 5.989291646252921
+======================================================
+ -- 14.52 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 32.0, 'gamma': 0.00390625}
+SRCC_train: 0.9771258772824535
+KRCC_train: 0.8711203897007653
+PLCC_train: 0.9799317587099421
+RMSE_train: 3.738398003664843
+======================================================
+SRCC_test: 0.910613429082262
+KRCC_test: 0.7548147647896168
+PLCC_test: 0.9324887676160585
+RMSE_test: 7.368261208758014
+======================================================
+ -- 14.01 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.9726, median=0.9765, std=0.0084
+KRCC Train: mean=0.8632, median=0.8688, std=0.0167
+PLCC Train: mean=0.9776, median=0.9790, std=0.0061
+RMSE Train: mean=4.0019, median=3.8635, std=0.5505
+======================================================
+Average testing results:
+SRCC Test: mean=0.8777, median=0.8802, std=0.0353
+KRCC Test: mean=0.7025, median=0.7012, std=0.0503
+PLCC Test: mean=0.8947, median=0.8924, std=0.0392
+RMSE Test: mean=8.2053, median=8.5541, std=1.2283
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 16.0, 'gamma': 0.0078125}
+SRCC_train: 0.9790003159303513
+KRCC_train: 0.878719436031689
+PLCC_train: 0.9833627684304442
+RMSE_train: 3.4233932832194265
+======================================================
+SRCC_test: 0.864859877753431
+KRCC_test: 0.6824587706146926
+PLCC_test: 0.8965659863358064
+RMSE_test: 8.982505938745351
+======================================================
+ -- 16.13 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.00390625}
+SRCC_train: 0.9547684668770263
+KRCC_train: 0.8296798886569241
+PLCC_train: 0.9648778832503533
+RMSE_train: 5.114215139834601
+======================================================
+SRCC_test: 0.895513577331759
+KRCC_test: 0.7198879551820727
+PLCC_test: 0.8882781333872403
+RMSE_test: 8.125771600535648
+======================================================
+ -- 15.71 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.0078125}
+SRCC_train: 0.9758741357384363
+KRCC_train: 0.866544885177453
+PLCC_train: 0.9781517104410047
+RMSE_train: 3.9885040643980534
+======================================================
+SRCC_test: 0.8396902562677963
+KRCC_test: 0.6571428571428571
+PLCC_test: 0.8715381346241416
+RMSE_test: 9.214641870177179
+======================================================
+ -- 14.22 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.0078125}
+SRCC_train: 0.9706243299667098
+KRCC_train: 0.8562978427279052
+PLCC_train: 0.97741564655927
+RMSE_train: 4.141773482420062
+======================================================
+SRCC_test: 0.8303493298145703
+KRCC_test: 0.630812324929972
+PLCC_test: 0.8299650437426218
+RMSE_test: 9.551396858237872
+======================================================
+ -- 14.42 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 32.0, 'gamma': 0.00390625}
+SRCC_train: 0.978173789692357
+KRCC_train: 0.876661348079424
+PLCC_train: 0.9820831822920323
+RMSE_train: 3.6050481385259148
+======================================================
+SRCC_test: 0.9249759735516857
+KRCC_test: 0.7697151424287856
+PLCC_test: 0.9495607209684197
+RMSE_test: 5.989291646252921
+======================================================
+ -- 26.85 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 32.0, 'gamma': 0.00390625}
+SRCC_train: 0.9771258772824535
+KRCC_train: 0.8711203897007653
+PLCC_train: 0.9799317587099421
+RMSE_train: 3.738398003664843
+======================================================
+SRCC_test: 0.910613429082262
+KRCC_test: 0.7548147647896168
+PLCC_test: 0.9324887676160585
+RMSE_test: 7.368261208758014
+======================================================
+ -- 25.38 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.9726, median=0.9765, std=0.0084
+KRCC Train: mean=0.8632, median=0.8688, std=0.0167
+PLCC Train: mean=0.9776, median=0.9790, std=0.0061
+RMSE Train: mean=4.0019, median=3.8635, std=0.5505
+======================================================
+Average testing results:
+SRCC Test: mean=0.8777, median=0.8802, std=0.0353
+KRCC Test: mean=0.7025, median=0.7012, std=0.0503
+PLCC Test: mean=0.8947, median=0.8924, std=0.0392
+RMSE Test: mean=8.2053, median=8.5541, std=1.2283
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 2.0, 'gamma': 0.00390625}
+SRCC_train: 0.8749695548527257
+KRCC_train: 0.7096152145068554
+PLCC_train: 0.8915756102672581
+RMSE_train: 8.402144105289583
+======================================================
+SRCC_test: 0.8745869394177811
+KRCC_test: 0.7010228166797796
+PLCC_test: 0.9246273045303461
+RMSE_test: 7.994866377428602
+======================================================
+ -- 19.15 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 32.0, 'gamma': 0.00390625}
+SRCC_train: 0.98033431464017
+KRCC_train: 0.8822100165973684
+PLCC_train: 0.9832463249273443
+RMSE_train: 3.4769109273865886
+======================================================
+SRCC_test: 0.8440933379464115
+KRCC_test: 0.6719640179910045
+PLCC_test: 0.8755893664081411
+RMSE_test: 9.34427219580761
+======================================================
+ -- 21.01 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 64.0, 'gamma': 0.0009765625}
+SRCC_train: 0.9633541161202956
+KRCC_train: 0.836464857341684
+PLCC_train: 0.9702282799710062
+RMSE_train: 4.687658935501231
+======================================================
+SRCC_test: 0.9250572956455309
+KRCC_test: 0.7717086834733893
+PLCC_test: 0.9498884628396358
+RMSE_test: 5.685718042169703
+======================================================
+ -- 19.66 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 32.0, 'gamma': 0.0009765625}
+SRCC_train: 0.9473616601815771
+KRCC_train: 0.8154569458591294
+PLCC_train: 0.9568541225028832
+RMSE_train: 5.493679378106888
+======================================================
+SRCC_test: 0.8813280881195907
+KRCC_test: 0.7159716758457907
+PLCC_test: 0.901964183498629
+RMSE_test: 8.611081176139644
+======================================================
+ -- 32.16 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 16.0, 'gamma': 0.00390625}
+SRCC_train: 0.9671232124963214
+KRCC_train: 0.8496947867862882
+PLCC_train: 0.9749058520581068
+RMSE_train: 4.27576509037657
+======================================================
+SRCC_test: 0.8593011186714337
+KRCC_test: 0.6770614692653673
+PLCC_test: 0.8755252104380342
+RMSE_test: 9.086545591219478
+======================================================
+ -- 20.87 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.0009765625}
+SRCC_train: 0.9885148730302611
+KRCC_train: 0.9126281703117665
+PLCC_train: 0.991057668728438
+RMSE_train: 2.511500064508431
+======================================================
+SRCC_test: 0.8889401453119595
+KRCC_test: 0.7136431784107946
+PLCC_test: 0.8900060203307096
+RMSE_test: 9.277486038614827
+======================================================
+ -- 18.56 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.9536, median=0.9652, std=0.0375
+KRCC Train: mean=0.8343, median=0.8431, std=0.0640
+PLCC Train: mean=0.9613, median=0.9726, std=0.0329
+RMSE Train: mean=4.8079, median=4.4817, std=1.8588
+======================================================
+Average testing results:
+SRCC Test: mean=0.8789, median=0.8780, std=0.0253
+KRCC Test: mean=0.7086, median=0.7073, std=0.0328
+PLCC Test: mean=0.9029, median=0.8960, std=0.0269
+RMSE Test: mean=8.3333, median=8.8488, std=1.2703
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 2.0, 'gamma': 0.00390625}
+SRCC_train: 0.8749695548527257
+KRCC_train: 0.7096152145068554
+PLCC_train: 0.8915756102672581
+RMSE_train: 8.402144105289583
+======================================================
+SRCC_test: 0.8745869394177811
+KRCC_test: 0.7010228166797796
+PLCC_test: 0.9246273045303461
+RMSE_test: 7.994866377428602
+======================================================
+ -- 20.98 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 32.0, 'gamma': 0.00390625}
+SRCC_train: 0.98033431464017
+KRCC_train: 0.8822100165973684
+PLCC_train: 0.9832463249273443
+RMSE_train: 3.4769109273865886
+======================================================
+SRCC_test: 0.8440933379464115
+KRCC_test: 0.6719640179910045
+PLCC_test: 0.8755893664081411
+RMSE_test: 9.34427219580761
+======================================================
+ -- 21.07 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 64.0, 'gamma': 0.0009765625}
+SRCC_train: 0.9633541161202956
+KRCC_train: 0.836464857341684
+PLCC_train: 0.9702282799710062
+RMSE_train: 4.687658935501231
+======================================================
+SRCC_test: 0.9250572956455309
+KRCC_test: 0.7717086834733893
+PLCC_test: 0.9498884628396358
+RMSE_test: 5.685718042169703
+======================================================
+ -- 18.11 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 32.0, 'gamma': 0.0009765625}
+SRCC_train: 0.9473616601815771
+KRCC_train: 0.8154569458591294
+PLCC_train: 0.9568541225028832
+RMSE_train: 5.493679378106888
+======================================================
+SRCC_test: 0.8813280881195907
+KRCC_test: 0.7159716758457907
+PLCC_test: 0.901964183498629
+RMSE_test: 8.611081176139644
+======================================================
+ -- 20.91 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 16.0, 'gamma': 0.00390625}
+SRCC_train: 0.9671232124963214
+KRCC_train: 0.8496947867862882
+PLCC_train: 0.9749058520581068
+RMSE_train: 4.27576509037657
+======================================================
+SRCC_test: 0.8593011186714337
+KRCC_test: 0.6770614692653673
+PLCC_test: 0.8755252104380342
+RMSE_test: 9.086545591219478
+======================================================
+ -- 28.66 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.0009765625}
+SRCC_train: 0.9885148730302611
+KRCC_train: 0.9126281703117665
+PLCC_train: 0.991057668728438
+RMSE_train: 2.511500064508431
+======================================================
+SRCC_test: 0.8889401453119595
+KRCC_test: 0.7136431784107946
+PLCC_test: 0.8900060203307096
+RMSE_test: 9.277486038614827
+======================================================
+ -- 18.33 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.9536, median=0.9652, std=0.0375
+KRCC Train: mean=0.8343, median=0.8431, std=0.0640
+PLCC Train: mean=0.9613, median=0.9726, std=0.0329
+RMSE Train: mean=4.8079, median=4.4817, std=1.8588
+======================================================
+Average testing results:
+SRCC Test: mean=0.8789, median=0.8780, std=0.0253
+KRCC Test: mean=0.7086, median=0.7073, std=0.0328
+PLCC Test: mean=0.9029, median=0.8960, std=0.0269
+RMSE Test: mean=8.3333, median=8.8488, std=1.2703
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.0078125}
+SRCC_train: 0.970376796621752
+KRCC_train: 0.8561014966221222
+PLCC_train: 0.9771669109674908
+RMSE_train: 4.104757990700165
+======================================================
+SRCC_test: 0.8871518855476074
+KRCC_test: 0.7156862745098038
+PLCC_test: 0.8701170051803775
+RMSE_test: 9.052199530692496
+======================================================
+ -- 18.92 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 2.0, 'gamma': 0.0078125}
+SRCC_train: 0.9203549852743231
+KRCC_train: 0.7601894580337124
+PLCC_train: 0.9335229235025404
+RMSE_train: 7.015570900286945
+======================================================
+SRCC_test: 0.9200083339120771
+KRCC_test: 0.7652661064425769
+PLCC_test: 0.9475966239136062
+RMSE_test: 5.485555043015446
+======================================================
+ -- 20.30 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 128.0, 'gamma': 0.0009765625}
+SRCC_train: 0.9762212509602907
+KRCC_train: 0.8696416144745999
+PLCC_train: 0.9819630397122456
+RMSE_train: 3.6073228182894383
+======================================================
+SRCC_test: 0.8460726439336064
+KRCC_test: 0.6742296918767506
+PLCC_test: 0.8510378210491014
+RMSE_test: 10.158850242523378
+======================================================
+ -- 20.29 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 16.0, 'gamma': 0.00390625}
+SRCC_train: 0.9679137324791379
+KRCC_train: 0.8493164984270416
+PLCC_train: 0.9729372587138327
+RMSE_train: 4.472091550041123
+======================================================
+SRCC_test: 0.9230224321133411
+KRCC_test: 0.7753501400560224
+PLCC_test: 0.9619642214598246
+RMSE_test: 4.956743693202684
+======================================================
+ -- 17.78 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 64.0, 'gamma': 0.0009765625}
+SRCC_train: 0.960080111488488
+KRCC_train: 0.8326758071649714
+PLCC_train: 0.9671571885019195
+RMSE_train: 4.807074606924886
+======================================================
+SRCC_test: 0.9102564909520062
+KRCC_test: 0.7503278258589037
+PLCC_test: 0.9315216817085792
+RMSE_test: 7.1874660802204335
+======================================================
+ -- 19.71 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 64.0, 'gamma': 0.00390625}
+SRCC_train: 0.9861813361326806
+KRCC_train: 0.9020481126047071
+PLCC_train: 0.988551646113269
+RMSE_train: 2.9036461564457987
+======================================================
+SRCC_test: 0.9358913813459266
+KRCC_test: 0.7798319327731092
+PLCC_test: 0.9541951548028071
+RMSE_test: 5.586384370579649
+======================================================
+ -- 20.03 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.9635, median=0.9691, std=0.0209
+KRCC Train: mean=0.8450, median=0.8527, std=0.0435
+PLCC Train: mean=0.9702, median=0.9751, std=0.0177
+RMSE Train: mean=4.4851, median=4.2884, std=1.2860
+======================================================
+Average testing results:
+SRCC Test: mean=0.9037, median=0.9151, std=0.0298
+KRCC Test: mean=0.7434, median=0.7578, std=0.0375
+PLCC Test: mean=0.9194, median=0.9396, std=0.0429
+RMSE Test: mean=7.0712, median=6.3869, std=1.9434
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 256.0, 'gamma': 0.0009765625}
+SRCC_train: 0.9772223838514823
+KRCC_train: 0.8722285370653071
+PLCC_train: 0.9806000511083135
+RMSE_train: 3.641161623779928
+======================================================
+SRCC_test: 0.9447993705743507
+KRCC_test: 0.8014686598478887
+PLCC_test: 0.9605293915913186
+RMSE_test: 5.803129240526498
+======================================================
+ -- 20.75 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.0078125}
+SRCC_train: 0.969995095464824
+KRCC_train: 0.8518963117606123
+PLCC_train: 0.9738279012911659
+RMSE_train: 4.391056909927962
+======================================================
+SRCC_test: 0.91303562747413
+KRCC_test: 0.7585434173669466
+PLCC_test: 0.9544635334247747
+RMSE_test: 5.431474399717531
+======================================================
+ -- 20.11 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.001953125}
+SRCC_train: 0.9537350681561544
+KRCC_train: 0.8148401640996651
+PLCC_train: 0.9599227518549214
+RMSE_train: 5.3641288347281915
+======================================================
+SRCC_test: 0.7738899780878792
+KRCC_test: 0.6173913043478261
+PLCC_test: 0.6914006814468789
+RMSE_test: 13.797775962974777
+======================================================
+ -- 19.12 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 512.0, 'gamma': 0.0009765625}
+SRCC_train: 0.9867316047378677
+KRCC_train: 0.9042623521224773
+PLCC_train: 0.9894926613358498
+RMSE_train: 2.7780560225996815
+======================================================
+SRCC_test: 0.8630460448642265
+KRCC_test: 0.6854341736694678
+PLCC_test: 0.900550858410184
+RMSE_test: 8.130272905793516
+======================================================
+ -- 25.88 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 4.0, 'gamma': 0.0078125}
+SRCC_train: 0.9487661147532018
+KRCC_train: 0.8137408834262845
+PLCC_train: 0.9561695755576676
+RMSE_train: 5.643676514962524
+======================================================
+SRCC_test: 0.9181180173092052
+KRCC_test: 0.7626540781536846
+PLCC_test: 0.9438777048476699
+RMSE_test: 6.110490305611912
+======================================================
+ -- 20.01 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 32.0, 'gamma': 0.00390625}
+SRCC_train: 0.9757342418948829
+KRCC_train: 0.8686798394299257
+PLCC_train: 0.9798302818253437
+RMSE_train: 3.769020164927514
+======================================================
+SRCC_test: 0.9527119938884644
+KRCC_test: 0.8168067226890755
+PLCC_test: 0.9702350005746158
+RMSE_test: 4.831114953405796
+======================================================
+ -- 18.15 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.9687, median=0.9729, std=0.0134
+KRCC Train: mean=0.8543, median=0.8603, std=0.0322
+PLCC Train: mean=0.9733, median=0.9768, std=0.0118
+RMSE Train: mean=4.2645, median=4.0800, std=0.9976
+======================================================
+Average testing results:
+SRCC Test: mean=0.8943, median=0.9156, std=0.0610
+KRCC Test: mean=0.7404, median=0.7606, std=0.0690
+PLCC Test: mean=0.9035, median=0.9492, std=0.0974
+RMSE Test: mean=7.3507, median=5.9568, std=3.0588
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 256.0, 'gamma': 0.0009765625}
+SRCC_train: 0.9772223838514823
+KRCC_train: 0.8722285370653071
+PLCC_train: 0.9806000511083135
+RMSE_train: 3.641161623779928
+======================================================
+SRCC_test: 0.9447993705743507
+KRCC_test: 0.8014686598478887
+PLCC_test: 0.9605293915913186
+RMSE_test: 5.803129240526498
+======================================================
+ -- 15.01 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.0078125}
+SRCC_train: 0.969995095464824
+KRCC_train: 0.8518963117606123
+PLCC_train: 0.9738279012911659
+RMSE_train: 4.391056909927962
+======================================================
+SRCC_test: 0.91303562747413
+KRCC_test: 0.7585434173669466
+PLCC_test: 0.9544635334247747
+RMSE_test: 5.431474399717531
+======================================================
+ -- 14.78 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.001953125}
+SRCC_train: 0.9537350681561544
+KRCC_train: 0.8148401640996651
+PLCC_train: 0.9599227518549214
+RMSE_train: 5.3641288347281915
+======================================================
+SRCC_test: 0.7738899780878792
+KRCC_test: 0.6173913043478261
+PLCC_test: 0.6914006814468789
+RMSE_test: 13.797775962974777
+======================================================
+ -- 15.07 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 512.0, 'gamma': 0.0009765625}
+SRCC_train: 0.9867316047378677
+KRCC_train: 0.9042623521224773
+PLCC_train: 0.9894926613358498
+RMSE_train: 2.7780560225996815
+======================================================
+SRCC_test: 0.8630460448642265
+KRCC_test: 0.6854341736694678
+PLCC_test: 0.900550858410184
+RMSE_test: 8.130272905793516
+======================================================
+ -- 14.50 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 4.0, 'gamma': 0.0078125}
+SRCC_train: 0.9487661147532018
+KRCC_train: 0.8137408834262845
+PLCC_train: 0.9561695755576676
+RMSE_train: 5.643676514962524
+======================================================
+SRCC_test: 0.9181180173092052
+KRCC_test: 0.7626540781536846
+PLCC_test: 0.9438777048476699
+RMSE_test: 6.110490305611912
+======================================================
+ -- 14.20 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 32.0, 'gamma': 0.00390625}
+SRCC_train: 0.9757342418948829
+KRCC_train: 0.8686798394299257
+PLCC_train: 0.9798302818253437
+RMSE_train: 3.769020164927514
+======================================================
+SRCC_test: 0.9527119938884644
+KRCC_test: 0.8168067226890755
+PLCC_test: 0.9702350005746158
+RMSE_test: 4.831114953405796
+======================================================
+ -- 14.86 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.9687, median=0.9729, std=0.0134
+KRCC Train: mean=0.8543, median=0.8603, std=0.0322
+PLCC Train: mean=0.9733, median=0.9768, std=0.0118
+RMSE Train: mean=4.2645, median=4.0800, std=0.9976
+======================================================
+Average testing results:
+SRCC Test: mean=0.8943, median=0.9156, std=0.0610
+KRCC Test: mean=0.7404, median=0.7606, std=0.0690
+PLCC Test: mean=0.9035, median=0.9492, std=0.0974
+RMSE Test: mean=7.3507, median=5.9568, std=3.0588
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 256.0, 'gamma': 0.0009765625}
+SRCC_train: 0.9772223838514823
+KRCC_train: 0.8722285370653071
+PLCC_train: 0.9806000511083135
+RMSE_train: 3.641161623779928
+======================================================
+SRCC_test: 0.9447993705743507
+KRCC_test: 0.8014686598478887
+PLCC_test: 0.9605293915913186
+RMSE_test: 5.803129240526498
+======================================================
+ -- 18.73 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.0078125}
+SRCC_train: 0.969995095464824
+KRCC_train: 0.8518963117606123
+PLCC_train: 0.9738279012911659
+RMSE_train: 4.391056909927962
+======================================================
+SRCC_test: 0.91303562747413
+KRCC_test: 0.7585434173669466
+PLCC_test: 0.9544635334247747
+RMSE_test: 5.431474399717531
+======================================================
+ -- 19.19 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.001953125}
+SRCC_train: 0.9537350681561544
+KRCC_train: 0.8148401640996651
+PLCC_train: 0.9599227518549214
+RMSE_train: 5.3641288347281915
+======================================================
+SRCC_test: 0.7738899780878792
+KRCC_test: 0.6173913043478261
+PLCC_test: 0.6914006814468789
+RMSE_test: 13.797775962974777
+======================================================
+ -- 23.76 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 512.0, 'gamma': 0.0009765625}
+SRCC_train: 0.9867316047378677
+KRCC_train: 0.9042623521224773
+PLCC_train: 0.9894926613358498
+RMSE_train: 2.7780560225996815
+======================================================
+SRCC_test: 0.8630460448642265
+KRCC_test: 0.6854341736694678
+PLCC_test: 0.900550858410184
+RMSE_test: 8.130272905793516
+======================================================
+ -- 37.47 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 4.0, 'gamma': 0.0078125}
+SRCC_train: 0.9487661147532018
+KRCC_train: 0.8137408834262845
+PLCC_train: 0.9561695755576676
+RMSE_train: 5.643676514962524
+======================================================
+SRCC_test: 0.9181180173092052
+KRCC_test: 0.7626540781536846
+PLCC_test: 0.9438777048476699
+RMSE_test: 6.110490305611912
+======================================================
+ -- 30.99 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 32.0, 'gamma': 0.00390625}
+SRCC_train: 0.9757342418948829
+KRCC_train: 0.8686798394299257
+PLCC_train: 0.9798302818253437
+RMSE_train: 3.769020164927514
+======================================================
+SRCC_test: 0.9527119938884644
+KRCC_test: 0.8168067226890755
+PLCC_test: 0.9702350005746158
+RMSE_test: 4.831114953405796
+======================================================
+ -- 33.52 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.9687, median=0.9729, std=0.0134
+KRCC Train: mean=0.8543, median=0.8603, std=0.0322
+PLCC Train: mean=0.9733, median=0.9768, std=0.0118
+RMSE Train: mean=4.2645, median=4.0800, std=0.9976
+======================================================
+Average testing results:
+SRCC Test: mean=0.8943, median=0.9156, std=0.0610
+KRCC Test: mean=0.7404, median=0.7606, std=0.0690
+PLCC Test: mean=0.9035, median=0.9492, std=0.0974
+RMSE Test: mean=7.3507, median=5.9568, std=3.0588
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 256.0, 'gamma': 0.0009765625}
+SRCC_train: 0.977367085231589
+KRCC_train: 0.8728654262156412
+PLCC_train: 0.9808724983362009
+RMSE_train: 3.6157521772449077
+======================================================
+SRCC_test: 0.9410354051927616
+KRCC_test: 0.7922895357985837
+PLCC_test: 0.9546727115105282
+RMSE_test: 6.209484518786541
+======================================================
+ -- 16.03 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.0078125}
+SRCC_train: 0.9697403200534724
+KRCC_train: 0.851652748782185
+PLCC_train: 0.9737247577963275
+RMSE_train: 4.399585960968567
+======================================================
+SRCC_test: 0.9348357524828113
+KRCC_test: 0.7946778711484592
+PLCC_test: 0.9624529523262142
+RMSE_test: 4.942103209375175
+======================================================
+ -- 14.98 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.00390625}
+SRCC_train: 0.9662601987096125
+KRCC_train: 0.8438257953373378
+PLCC_train: 0.970491400477594
+RMSE_train: 4.615219354462174
+======================================================
+SRCC_test: 0.8097643485949333
+KRCC_test: 0.6557721139430285
+PLCC_test: 0.6967504959302998
+RMSE_test: 13.69926917110579
+======================================================
+ -- 15.24 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 512.0, 'gamma': 0.0009765625}
+SRCC_train: 0.9865932577832367
+KRCC_train: 0.904036186499652
+PLCC_train: 0.989445540699237
+RMSE_train: 2.784245240907925
+======================================================
+SRCC_test: 0.8823737759566636
+KRCC_test: 0.7168067226890755
+PLCC_test: 0.9171071793425837
+RMSE_test: 7.454980505643699
+======================================================
+ -- 16.01 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 4.0, 'gamma': 0.0078125}
+SRCC_train: 0.9491489809192515
+KRCC_train: 0.8136701179651363
+PLCC_train: 0.9566403045975485
+RMSE_train: 5.613964133267335
+======================================================
+SRCC_test: 0.9146309992132178
+KRCC_test: 0.7642276422764227
+PLCC_test: 0.9496717738102913
+RMSE_test: 5.795093434637775
+======================================================
+ -- 15.37 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 32.0, 'gamma': 0.00390625}
+SRCC_train: 0.976905362461029
+KRCC_train: 0.8713068515516107
+PLCC_train: 0.9804256088268669
+RMSE_train: 3.71353877515084
+======================================================
+SRCC_test: 0.9647336620598652
+KRCC_test: 0.8434173669467787
+PLCC_test: 0.9772462419379115
+RMSE_test: 4.23148070169039
+======================================================
+ -- 15.98 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.9710, median=0.9733, std=0.0117
+KRCC Train: mean=0.8596, median=0.8615, std=0.0280
+PLCC Train: mean=0.9753, median=0.9771, std=0.0103
+RMSE Train: mean=4.1237, median=4.0566, std=0.8906
+======================================================
+Average testing results:
+SRCC Test: mean=0.9079, median=0.9247, std=0.0506
+KRCC Test: mean=0.7612, median=0.7783, std=0.0605
+PLCC Test: mean=0.9097, median=0.9522, std=0.0969
+RMSE Test: mean=7.0554, median=6.0023, std=3.1370
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 256.0, 'gamma': 0.0009765625}
+SRCC_train: 0.977367085231589
+KRCC_train: 0.8728654262156412
+PLCC_train: 0.9808724983362009
+RMSE_train: 3.6157521772449077
+======================================================
+SRCC_test: 0.9410354051927616
+KRCC_test: 0.7922895357985837
+PLCC_test: 0.9546727115105282
+RMSE_test: 6.209484518786541
+======================================================
+ -- 15.67 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.0078125}
+SRCC_train: 0.9697403200534724
+KRCC_train: 0.851652748782185
+PLCC_train: 0.9737247577963275
+RMSE_train: 4.399585960968567
+======================================================
+SRCC_test: 0.9348357524828113
+KRCC_test: 0.7946778711484592
+PLCC_test: 0.9624529523262142
+RMSE_test: 4.942103209375175
+======================================================
+ -- 15.48 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.00390625}
+SRCC_train: 0.9662601987096125
+KRCC_train: 0.8438257953373378
+PLCC_train: 0.970491400477594
+RMSE_train: 4.615219354462174
+======================================================
+SRCC_test: 0.8097643485949333
+KRCC_test: 0.6557721139430285
+PLCC_test: 0.6967504959302998
+RMSE_test: 13.69926917110579
+======================================================
+ -- 16.12 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 512.0, 'gamma': 0.0009765625}
+SRCC_train: 0.9865932577832367
+KRCC_train: 0.904036186499652
+PLCC_train: 0.989445540699237
+RMSE_train: 2.784245240907925
+======================================================
+SRCC_test: 0.8823737759566636
+KRCC_test: 0.7168067226890755
+PLCC_test: 0.9171071793425837
+RMSE_test: 7.454980505643699
+======================================================
+ -- 16.11 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 4.0, 'gamma': 0.0078125}
+SRCC_train: 0.9491489809192515
+KRCC_train: 0.8136701179651363
+PLCC_train: 0.9566403045975485
+RMSE_train: 5.613964133267335
+======================================================
+SRCC_test: 0.9146309992132178
+KRCC_test: 0.7642276422764227
+PLCC_test: 0.9496717738102913
+RMSE_test: 5.795093434637775
+======================================================
+ -- 15.35 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 32.0, 'gamma': 0.00390625}
+SRCC_train: 0.976905362461029
+KRCC_train: 0.8713068515516107
+PLCC_train: 0.9804256088268669
+RMSE_train: 3.71353877515084
+======================================================
+SRCC_test: 0.9647336620598652
+KRCC_test: 0.8434173669467787
+PLCC_test: 0.9772462419379115
+RMSE_test: 4.23148070169039
+======================================================
+ -- 15.96 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.9710, median=0.9733, std=0.0117
+KRCC Train: mean=0.8596, median=0.8615, std=0.0280
+PLCC Train: mean=0.9753, median=0.9771, std=0.0103
+RMSE Train: mean=4.1237, median=4.0566, std=0.8906
+======================================================
+Average testing results:
+SRCC Test: mean=0.9079, median=0.9247, std=0.0506
+KRCC Test: mean=0.7612, median=0.7783, std=0.0605
+PLCC Test: mean=0.9097, median=0.9522, std=0.0969
+RMSE Test: mean=7.0554, median=6.0023, std=3.1370
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 2.0, 'gamma': 0.00390625}
+SRCC_train: 0.8794718205057593
+KRCC_train: 0.7159663865546219
+PLCC_train: 0.8955591027821415
+RMSE_train: 8.255031632550182
+======================================================
+SRCC_test: 0.891543666404406
+KRCC_test: 0.7269866247049567
+PLCC_test: 0.9301576911237629
+RMSE_test: 7.707021217970082
+======================================================
+ -- 16.19 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 32.0, 'gamma': 0.00390625}
+SRCC_train: 0.9799055595803893
+KRCC_train: 0.8799685163321528
+PLCC_train: 0.9830207989579306
+RMSE_train: 3.500035518912269
+======================================================
+SRCC_test: 0.8552108561104064
+KRCC_test: 0.6881559220389805
+PLCC_test: 0.8790149226737081
+RMSE_test: 9.223141397800415
+======================================================
+ -- 16.31 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 16.0, 'gamma': 0.00390625}
+SRCC_train: 0.9692150356555366
+KRCC_train: 0.8505393180236602
+PLCC_train: 0.9739109870264112
+RMSE_train: 4.392263384794258
+======================================================
+SRCC_test: 0.9320022223765537
+KRCC_test: 0.780952380952381
+PLCC_test: 0.9555176087245745
+RMSE_test: 5.364589561356032
+======================================================
+ -- 16.02 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 16.0, 'gamma': 0.00390625}
+SRCC_train: 0.9659639377568213
+KRCC_train: 0.850627380049806
+PLCC_train: 0.9714243699459861
+RMSE_train: 4.487478683007012
+======================================================
+SRCC_test: 0.9047049567269865
+KRCC_test: 0.7429845266194597
+PLCC_test: 0.926791692123599
+RMSE_test: 7.489653015352848
+======================================================
+ -- 21.66 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 16.0, 'gamma': 0.00390625}
+SRCC_train: 0.9674355443193012
+KRCC_train: 0.8509780939544259
+PLCC_train: 0.9750855978232649
+RMSE_train: 4.260618101874488
+======================================================
+SRCC_test: 0.8773920731941721
+KRCC_test: 0.6977511244377811
+PLCC_test: 0.8903922066173914
+RMSE_test: 8.56038570127624
+======================================================
+ -- 34.23 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 512.0, 'gamma': 0.001953125}
+SRCC_train: 0.9894059871554997
+KRCC_train: 0.9174191837394811
+PLCC_train: 0.9921155396269343
+RMSE_train: 2.3588979132373447
+======================================================
+SRCC_test: 0.8551877907200247
+KRCC_test: 0.6818590704647676
+PLCC_test: 0.8604857185765241
+RMSE_test: 10.36661002940598
+======================================================
+ -- 37.89 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.9586, median=0.9683, std=0.0363
+KRCC Train: mean=0.8442, median=0.8508, std=0.0622
+PLCC Train: mean=0.9652, median=0.9745, std=0.0319
+RMSE Train: mean=4.5424, median=4.3264, std=1.8140
+======================================================
+Average testing results:
+SRCC Test: mean=0.8860, median=0.8845, std=0.0273
+KRCC Test: mean=0.7198, median=0.7124, std=0.0348
+PLCC Test: mean=0.9071, median=0.9086, std=0.0329
+RMSE Test: mean=8.1186, median=8.1337, std=1.5609
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 64.0, 'gamma': 0.0009765625}
+SRCC_train: 0.966617936889319
+KRCC_train: 0.8490033446641918
+PLCC_train: 0.9735250127207524
+RMSE_train: 4.434249458104258
+======================================================
+SRCC_test: 0.8550524341968191
+KRCC_test: 0.676750700280112
+PLCC_test: 0.8583483175533866
+RMSE_test: 9.222318869593886
+======================================================
+ -- 16.94 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 32.0, 'gamma': 0.00390625}
+SRCC_train: 0.9813225100803388
+KRCC_train: 0.8846903270702852
+PLCC_train: 0.9844226411573608
+RMSE_train: 3.416623547422223
+======================================================
+SRCC_test: 0.7901104243350231
+KRCC_test: 0.6089635854341736
+PLCC_test: 0.7857579852808343
+RMSE_test: 10.998242390524078
+======================================================
+ -- 16.09 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 64.0, 'gamma': 0.0078125}
+SRCC_train: 0.9884918388451082
+KRCC_train: 0.913895763299194
+PLCC_train: 0.9912565639003069
+RMSE_train: 2.457237663408361
+======================================================
+SRCC_test: 0.9410514619070767
+KRCC_test: 0.7938375350140056
+PLCC_test: 0.9595255651281188
+RMSE_test: 5.825667270508372
+======================================================
+ -- 15.90 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 128.0, 'gamma': 0.001953125}
+SRCC_train: 0.9813380148179807
+KRCC_train: 0.8852167292003428
+PLCC_train: 0.985062931654143
+RMSE_train: 3.247367435649963
+======================================================
+SRCC_test: 0.945619497943336
+KRCC_test: 0.80119940029985
+PLCC_test: 0.9550589977996264
+RMSE_test: 5.8905990789305
+======================================================
+ -- 16.68 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 256.0, 'gamma': 0.0078125}
+SRCC_train: 0.9934388548083669
+KRCC_train: 0.9399919102033506
+PLCC_train: 0.9952978363264875
+RMSE_train: 1.8359836501773414
+======================================================
+SRCC_test: 0.8931175776095561
+KRCC_test: 0.7131652661064426
+PLCC_test: 0.9190735277103094
+RMSE_test: 7.814941271811818
+======================================================
+ -- 15.82 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.0078125}
+SRCC_train: 0.9702071189545092
+KRCC_train: 0.855758524704245
+PLCC_train: 0.9764116220594681
+RMSE_train: 4.097184157030387
+======================================================
+SRCC_test: 0.8652684214181539
+KRCC_test: 0.6725490196078431
+PLCC_test: 0.8595261072635875
+RMSE_test: 10.075403358143749
+======================================================
+ -- 15.70 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.9802, median=0.9813, std=0.0094
+KRCC Train: mean=0.8881, median=0.8850, std=0.0315
+PLCC Train: mean=0.9843, median=0.9847, std=0.0076
+RMSE Train: mean=3.2481, median=3.3320, std=0.8922
+======================================================
+Average testing results:
+SRCC Test: mean=0.8817, median=0.8792, std=0.0534
+KRCC Test: mean=0.7111, median=0.6950, std=0.0684
+PLCC Test: mean=0.8895, median=0.8893, std=0.0615
+RMSE Test: mean=8.3045, median=8.5186, std=1.9768
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 16.0, 'gamma': 0.00390625}
+SRCC_train: 0.9677257785898096
+KRCC_train: 0.8503797009357871
+PLCC_train: 0.9725312379163957
+RMSE_train: 4.455491139393208
+======================================================
+SRCC_test: 0.8949425649095198
+KRCC_test: 0.7356412273800157
+PLCC_test: 0.9303370688090474
+RMSE_test: 7.00452871198292
+======================================================
+ -- 15.54 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 256.0, 'gamma': 0.001953125}
+SRCC_train: 0.9879470773513309
+KRCC_train: 0.9093724311691403
+PLCC_train: 0.9904053336252706
+RMSE_train: 2.718041464060418
+======================================================
+SRCC_test: 0.8973539829154801
+KRCC_test: 0.7428571428571428
+PLCC_test: 0.9361693448889583
+RMSE_test: 5.795160261247391
+======================================================
+ -- 17.47 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 16.0, 'gamma': 0.0078125}
+SRCC_train: 0.98025053766104
+KRCC_train: 0.8813973616878845
+PLCC_train: 0.9830470063381452
+RMSE_train: 3.427714182629609
+======================================================
+SRCC_test: 0.9065490659073546
+KRCC_test: 0.7358543417366946
+PLCC_test: 0.8970780755579087
+RMSE_test: 9.142918846778139
+======================================================
+ -- 20.38 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 16.0, 'gamma': 0.00390625}
+SRCC_train: 0.9682844480738974
+KRCC_train: 0.8535440742255148
+PLCC_train: 0.9747506978963278
+RMSE_train: 4.321432054922489
+======================================================
+SRCC_test: 0.9209806236544203
+KRCC_test: 0.7680672268907561
+PLCC_test: 0.938515467880487
+RMSE_test: 6.291967009951529
+======================================================
+ -- 15.89 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 32.0, 'gamma': 0.00390625}
+SRCC_train: 0.9762451225916778
+KRCC_train: 0.8680236604036186
+PLCC_train: 0.9800182080984856
+RMSE_train: 3.7922080858291225
+======================================================
+SRCC_test: 0.9365789290922979
+KRCC_test: 0.7885154061624648
+PLCC_test: 0.9549154833278488
+RMSE_test: 5.760038822405671
+======================================================
+ -- 15.88 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.0078125}
+SRCC_train: 0.9730479515970121
+KRCC_train: 0.8596033402922755
+PLCC_train: 0.9752383872518171
+RMSE_train: 4.101051936876737
+======================================================
+SRCC_test: 0.8533787068546426
+KRCC_test: 0.6719887955182072
+PLCC_test: 0.8217699041838794
+RMSE_test: 12.13962234833653
+======================================================
+ -- 16.61 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.9756, median=0.9746, std=0.0070
+KRCC Train: mean=0.8704, median=0.8638, std=0.0202
+PLCC Train: mean=0.9793, median=0.9776, std=0.0061
+RMSE Train: mean=3.8027, median=3.9466, std=0.5918
+======================================================
+Average testing results:
+SRCC Test: mean=0.9016, median=0.9020, std=0.0259
+KRCC Test: mean=0.7405, median=0.7394, std=0.0361
+PLCC Test: mean=0.9131, median=0.9333, std=0.0444
+RMSE Test: mean=7.6890, median=6.6482, std=2.2967
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.001953125}
+SRCC_train: 0.9394871760372002
+KRCC_train: 0.7889996042159012
+PLCC_train: 0.9486414866814941
+RMSE_train: 5.88437624029126
+======================================================
+SRCC_test: 0.9056809500659766
+KRCC_test: 0.7568627450980391
+PLCC_test: 0.922498947841074
+RMSE_test: 8.013889405144894
+======================================================
+ -- 16.21 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 64.0, 'gamma': 0.001953125}
+SRCC_train: 0.9786360015298464
+KRCC_train: 0.8764564912073644
+PLCC_train: 0.9821290065820653
+RMSE_train: 3.594956164821463
+======================================================
+SRCC_test: 0.8244739218001249
+KRCC_test: 0.6408963585434173
+PLCC_test: 0.8357895932908878
+RMSE_test: 10.56727027241501
+======================================================
+ -- 15.78 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 512.0, 'gamma': 0.0009765625}
+SRCC_train: 0.9839158372105585
+KRCC_train: 0.8945420946221443
+PLCC_train: 0.988276616411623
+RMSE_train: 2.862142187006149
+======================================================
+SRCC_test: 0.8797908737938723
+KRCC_test: 0.6923538230884557
+PLCC_test: 0.8872411962596825
+RMSE_test: 9.361133656524549
+======================================================
+ -- 16.28 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 512.0, 'gamma': 0.0009765625}
+SRCC_train: 0.9849284009731056
+KRCC_train: 0.8979249213938503
+PLCC_train: 0.9881499652075971
+RMSE_train: 2.7897622534773987
+======================================================
+SRCC_test: 0.8751163275227445
+KRCC_test: 0.7092436974789915
+PLCC_test: 0.9415870831085211
+RMSE_test: 7.557161652220352
+======================================================
+ -- 16.10 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 16.0, 'gamma': 0.0078125}
+SRCC_train: 0.9819419079758918
+KRCC_train: 0.8861968071454237
+PLCC_train: 0.9848473601352636
+RMSE_train: 3.285147782761891
+======================================================
+SRCC_test: 0.8805904739937723
+KRCC_test: 0.7280359820089954
+PLCC_test: 0.9015619256979881
+RMSE_test: 8.609258938894957
+======================================================
+ -- 16.36 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 4.0, 'gamma': 0.00390625}
+SRCC_train: 0.9239006279297175
+KRCC_train: 0.7743683645183043
+PLCC_train: 0.9380639059198927
+RMSE_train: 6.69686648107363
+======================================================
+SRCC_test: 0.9378429057573441
+KRCC_test: 0.784313725490196
+PLCC_test: 0.9487036132769624
+RMSE_test: 5.793138728895408
+======================================================
+ -- 15.86 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.9655, median=0.9803, std=0.0244
+KRCC Train: mean=0.8531, median=0.8813, std=0.0511
+PLCC Train: mean=0.9717, median=0.9835, std=0.0204
+RMSE Train: mean=4.1855, median=3.4401, std=1.5304
+======================================================
+Average testing results:
+SRCC Test: mean=0.8839, median=0.8802, std=0.0342
+KRCC Test: mean=0.7186, median=0.7186, std=0.0460
+PLCC Test: mean=0.9062, median=0.9120, std=0.0380
+RMSE Test: mean=8.3170, median=8.3116, std=1.4876
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 128.0, 'gamma': 0.001953125}
+SRCC_train: 0.9819180581865319
+KRCC_train: 0.8864396284829722
+PLCC_train: 0.9841263151006271
+RMSE_train: 3.3368914912332515
+======================================================
+SRCC_test: 0.9518426435877261
+KRCC_test: 0.8098610018358247
+PLCC_test: 0.9665712188492174
+RMSE_test: 5.21375720058816
+======================================================
+ -- 16.18 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 32.0, 'gamma': 0.00390625}
+SRCC_train: 0.9811417090878681
+KRCC_train: 0.8835372457340255
+PLCC_train: 0.9832345836128425
+RMSE_train: 3.47148060275225
+======================================================
+SRCC_test: 0.8883116883116883
+KRCC_test: 0.726610644257703
+PLCC_test: 0.9353972063761087
+RMSE_test: 6.896236885785151
+======================================================
+ -- 15.95 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 256.0, 'gamma': 0.0009765625}
+SRCC_train: 0.9826065519458441
+KRCC_train: 0.8882795556416317
+PLCC_train: 0.9861660686369302
+RMSE_train: 3.188296275864195
+======================================================
+SRCC_test: 0.8830584707646177
+KRCC_test: 0.7292353823088455
+PLCC_test: 0.9158580182827457
+RMSE_test: 7.448625697604711
+======================================================
+ -- 16.47 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 64.0, 'gamma': 0.00390625}
+SRCC_train: 0.9861306985554897
+KRCC_train: 0.9003095975232198
+PLCC_train: 0.9881428609568754
+RMSE_train: 2.9330030674570793
+======================================================
+SRCC_test: 0.9154933123524782
+KRCC_test: 0.7566220823498557
+PLCC_test: 0.9573018488347464
+RMSE_test: 5.560795150839471
+======================================================
+ -- 15.80 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 512.0, 'gamma': 0.0009765625}
+SRCC_train: 0.9865351777483442
+KRCC_train: 0.9024100062450324
+PLCC_train: 0.9886593318581653
+RMSE_train: 2.9015846829544594
+======================================================
+SRCC_test: 0.915644374508261
+KRCC_test: 0.7629163388408078
+PLCC_test: 0.9581288869678674
+RMSE_test: 5.216918018434378
+======================================================
+ -- 15.71 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 128.0, 'gamma': 0.0078125}
+SRCC_train: 0.9916072495867837
+KRCC_train: 0.9295360540104186
+PLCC_train: 0.9941720391779871
+RMSE_train: 2.036388049582323
+======================================================
+SRCC_test: 0.8807972775887213
+KRCC_test: 0.7033613445378151
+PLCC_test: 0.9168226200943715
+RMSE_test: 7.996752326869314
+======================================================
+ -- 15.80 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.9850, median=0.9844, std=0.0036
+KRCC Train: mean=0.8984, median=0.8943, std=0.0156
+PLCC Train: mean=0.9874, median=0.9872, std=0.0036
+RMSE Train: mean=2.9779, median=3.0606, std=0.4674
+======================================================
+Average testing results:
+SRCC Test: mean=0.9059, median=0.9019, std=0.0250
+KRCC Test: mean=0.7481, median=0.7429, std=0.0340
+PLCC Test: mean=0.9417, median=0.9463, std=0.0202
+RMSE Test: mean=6.3888, median=6.2285, std=1.1110
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 16.0, 'gamma': 0.0078125}
+SRCC_train: 0.9794947026679802
+KRCC_train: 0.8780619345859428
+PLCC_train: 0.982955035507274
+RMSE_train: 3.606382337257303
+======================================================
+SRCC_test: 0.9093825960136119
+KRCC_test: 0.7397759103641456
+PLCC_test: 0.9302681304954578
+RMSE_test: 6.199717521954084
+======================================================
+ -- 15.99 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 16.0, 'gamma': 0.0078125}
+SRCC_train: 0.9806913782984484
+KRCC_train: 0.8834448626573035
+PLCC_train: 0.9836979129273791
+RMSE_train: 3.3821902019718997
+======================================================
+SRCC_test: 0.914605822187254
+KRCC_test: 0.7487542617361655
+PLCC_test: 0.9039988028119519
+RMSE_test: 8.64839208202224
+======================================================
+ -- 14.94 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 16.0, 'gamma': 0.00390625}
+SRCC_train: 0.9698962172659231
+KRCC_train: 0.8538398305570953
+PLCC_train: 0.9742981339887727
+RMSE_train: 4.4431303584098085
+======================================================
+SRCC_test: 0.9328911729981246
+KRCC_test: 0.7789915966386554
+PLCC_test: 0.9435566752836297
+RMSE_test: 5.29827492508037
+======================================================
+ -- 16.19 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.0078125}
+SRCC_train: 0.9715420035335988
+KRCC_train: 0.8571279450670191
+PLCC_train: 0.9766555616734739
+RMSE_train: 4.0775711478878325
+======================================================
+SRCC_test: 0.8919438849920134
+KRCC_test: 0.7190476190476189
+PLCC_test: 0.8799265386310919
+RMSE_test: 9.359862274586332
+======================================================
+ -- 16.23 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.0078125}
+SRCC_train: 0.9733083693939644
+KRCC_train: 0.8645615866388309
+PLCC_train: 0.9782127239080003
+RMSE_train: 4.072352837032889
+======================================================
+SRCC_test: 0.8941245919855544
+KRCC_test: 0.7221288515406161
+PLCC_test: 0.8728334488380542
+RMSE_test: 8.251297296934206
+======================================================
+ -- 16.48 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 16.0, 'gamma': 0.001953125}
+SRCC_train: 0.9514385913133303
+KRCC_train: 0.8174495476687542
+PLCC_train: 0.9599666506524284
+RMSE_train: 5.351640464405268
+======================================================
+SRCC_test: 0.9039099937495657
+KRCC_test: 0.7378151260504201
+PLCC_test: 0.9312967592819643
+RMSE_test: 7.006578591148243
+======================================================
+ -- 24.23 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.9711, median=0.9724, std=0.0096
+KRCC Train: mean=0.8591, median=0.8608, std=0.0214
+PLCC Train: mean=0.9760, median=0.9774, std=0.0079
+RMSE Train: mean=4.1555, median=4.0750, std=0.6359
+======================================================
+Average testing results:
+SRCC Test: mean=0.9078, median=0.9066, std=0.0137
+KRCC Test: mean=0.7411, median=0.7388, std=0.0198
+PLCC Test: mean=0.9103, median=0.9171, std=0.0268
+RMSE Test: mean=7.4607, median=7.6289, std=1.4210
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.0078125}
+SRCC_train: 0.9737040138440278
+KRCC_train: 0.8640869175747941
+PLCC_train: 0.9783389103191261
+RMSE_train: 3.949310204344153
+======================================================
+SRCC_test: 0.9054795471907771
+KRCC_test: 0.7271708683473389
+PLCC_test: 0.8884203809833111
+RMSE_test: 8.883227426021488
+======================================================
+ -- 15.53 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.0078125}
+SRCC_train: 0.9704021873576438
+KRCC_train: 0.8589372779190406
+PLCC_train: 0.9765566098142403
+RMSE_train: 4.0616195839700415
+======================================================
+SRCC_test: 0.8998611014653795
+KRCC_test: 0.7137254901960783
+PLCC_test: 0.8888023254905095
+RMSE_test: 9.102135635587821
+======================================================
+ -- 14.52 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 256.0, 'gamma': 0.0009765625}
+SRCC_train: 0.9822940854778014
+KRCC_train: 0.8865866388308976
+PLCC_train: 0.9853846670766552
+RMSE_train: 3.308379393189688
+======================================================
+SRCC_test: 0.8597333148135285
+KRCC_test: 0.722689075630252
+PLCC_test: 0.909437583000142
+RMSE_test: 7.270856182911482
+======================================================
+ -- 14.54 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.00390625}
+SRCC_train: 0.9553311037409863
+KRCC_train: 0.8269260043832753
+PLCC_train: 0.962213497347345
+RMSE_train: 5.288601014140106
+======================================================
+SRCC_test: 0.8831932773109242
+KRCC_test: 0.7274509803921568
+PLCC_test: 0.9192630434828513
+RMSE_test: 7.003513939816368
+======================================================
+ -- 14.66 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.0078125}
+SRCC_train: 0.969809656291911
+KRCC_train: 0.8517049408489908
+PLCC_train: 0.9736923486427269
+RMSE_train: 4.39505626295451
+======================================================
+SRCC_test: 0.9294342132006043
+KRCC_test: 0.7797464827581735
+PLCC_test: 0.9510434603819786
+RMSE_test: 5.64262168481718
+======================================================
+ -- 14.75 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 256.0, 'gamma': 0.0009765625}
+SRCC_train: 0.9762974584073948
+KRCC_train: 0.8701636444051305
+PLCC_train: 0.9810106658149247
+RMSE_train: 3.677261251311075
+======================================================
+SRCC_test: 0.94214948859166
+KRCC_test: 0.7870443220561237
+PLCC_test: 0.9546704349556756
+RMSE_test: 5.785763107779703
+======================================================
+ -- 14.36 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.9713, median=0.9721, std=0.0083
+KRCC Train: mean=0.8597, median=0.8615, std=0.0182
+PLCC Train: mean=0.9762, median=0.9774, std=0.0072
+RMSE Train: mean=4.1134, median=4.0055, std=0.6229
+======================================================
+Average testing results:
+SRCC Test: mean=0.9033, median=0.9027, std=0.0274
+KRCC Test: mean=0.7430, median=0.7273, std=0.0290
+PLCC Test: mean=0.9186, median=0.9144, std=0.0266
+RMSE Test: mean=7.2814, median=7.1372, std=1.3466
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 128.0, 'gamma': 0.001953125}
+SRCC_train: 0.9819180581865319
+KRCC_train: 0.8864396284829722
+PLCC_train: 0.9841263151006271
+RMSE_train: 3.3368914912332515
+======================================================
+SRCC_test: 0.9518426435877261
+KRCC_test: 0.8098610018358247
+PLCC_test: 0.9665712188492174
+RMSE_test: 5.21375720058816
+======================================================
+ -- 15.79 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 32.0, 'gamma': 0.00390625}
+SRCC_train: 0.9811417090878681
+KRCC_train: 0.8835372457340255
+PLCC_train: 0.9832345836128425
+RMSE_train: 3.47148060275225
+======================================================
+SRCC_test: 0.8883116883116883
+KRCC_test: 0.726610644257703
+PLCC_test: 0.9353972063761087
+RMSE_test: 6.896236885785151
+======================================================
+ -- 15.42 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 256.0, 'gamma': 0.0009765625}
+SRCC_train: 0.9826065519458441
+KRCC_train: 0.8882795556416317
+PLCC_train: 0.9861660686369302
+RMSE_train: 3.188296275864195
+======================================================
+SRCC_test: 0.8830584707646177
+KRCC_test: 0.7292353823088455
+PLCC_test: 0.9158580182827457
+RMSE_test: 7.448625697604711
+======================================================
+ -- 24.00 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 64.0, 'gamma': 0.00390625}
+SRCC_train: 0.9861306985554897
+KRCC_train: 0.9003095975232198
+PLCC_train: 0.9881428609568754
+RMSE_train: 2.9330030674570793
+======================================================
+SRCC_test: 0.9154933123524782
+KRCC_test: 0.7566220823498557
+PLCC_test: 0.9573018488347464
+RMSE_test: 5.560795150839471
+======================================================
+ -- 32.61 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 512.0, 'gamma': 0.0009765625}
+SRCC_train: 0.9865351777483442
+KRCC_train: 0.9024100062450324
+PLCC_train: 0.9886593318581653
+RMSE_train: 2.9015846829544594
+======================================================
+SRCC_test: 0.915644374508261
+KRCC_test: 0.7629163388408078
+PLCC_test: 0.9581288869678674
+RMSE_test: 5.216918018434378
+======================================================
+ -- 31.84 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 128.0, 'gamma': 0.0078125}
+SRCC_train: 0.9916072495867837
+KRCC_train: 0.9295360540104186
+PLCC_train: 0.9941720391779871
+RMSE_train: 2.036388049582323
+======================================================
+SRCC_test: 0.8807972775887213
+KRCC_test: 0.7033613445378151
+PLCC_test: 0.9168226200943715
+RMSE_test: 7.996752326869314
+======================================================
+ -- 32.80 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.9850, median=0.9844, std=0.0036
+KRCC Train: mean=0.8984, median=0.8943, std=0.0156
+PLCC Train: mean=0.9874, median=0.9872, std=0.0036
+RMSE Train: mean=2.9779, median=3.0606, std=0.4674
+======================================================
+Average testing results:
+SRCC Test: mean=0.9059, median=0.9019, std=0.0250
+KRCC Test: mean=0.7481, median=0.7429, std=0.0340
+PLCC Test: mean=0.9417, median=0.9463, std=0.0202
+RMSE Test: mean=6.3888, median=6.2285, std=1.1110
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, num_iterations=6)
+
+🔁 Iteration 1/6 using the same train-test split
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params: {'C': 128.0, 'gamma': 0.001953125}
+SRCC_train: 0.9819180581865319
+KRCC_train: 0.8864396284829722
+PLCC_train: 0.9841263151006271
+RMSE_train: 3.3368914912332515
+------------------------------------------------------
+SRCC_test: 0.9518426435877261
+KRCC_test: 0.8098610018358247
+PLCC_test: 0.9665712188492174
+RMSE_test: 5.21375720058816
+======================================================
+ -- 15.78 seconds elapsed...
+
+
+🔁 Iteration 2/6 using the same train-test split
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params: {'C': 128.0, 'gamma': 0.001953125}
+SRCC_train: 0.9819180581865319
+KRCC_train: 0.8864396284829722
+PLCC_train: 0.9841263151006271
+RMSE_train: 3.3368914912332515
+------------------------------------------------------
+SRCC_test: 0.9518426435877261
+KRCC_test: 0.8098610018358247
+PLCC_test: 0.9665712188492174
+RMSE_test: 5.21375720058816
+======================================================
+ -- 16.25 seconds elapsed...
+
+
+🔁 Iteration 3/6 using the same train-test split
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params: {'C': 128.0, 'gamma': 0.001953125}
+SRCC_train: 0.9819180581865319
+KRCC_train: 0.8864396284829722
+PLCC_train: 0.9841263151006271
+RMSE_train: 3.3368914912332515
+------------------------------------------------------
+SRCC_test: 0.9518426435877261
+KRCC_test: 0.8098610018358247
+PLCC_test: 0.9665712188492174
+RMSE_test: 5.21375720058816
+======================================================
+ -- 19.86 seconds elapsed...
+
+
+🔁 Iteration 4/6 using the same train-test split
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params: {'C': 128.0, 'gamma': 0.001953125}
+SRCC_train: 0.9819180581865319
+KRCC_train: 0.8864396284829722
+PLCC_train: 0.9841263151006271
+RMSE_train: 3.3368914912332515
+------------------------------------------------------
+SRCC_test: 0.9518426435877261
+KRCC_test: 0.8098610018358247
+PLCC_test: 0.9665712188492174
+RMSE_test: 5.21375720058816
+======================================================
+ -- 14.35 seconds elapsed...
+
+
+🔁 Iteration 5/6 using the same train-test split
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params: {'C': 128.0, 'gamma': 0.001953125}
+SRCC_train: 0.9819180581865319
+KRCC_train: 0.8864396284829722
+PLCC_train: 0.9841263151006271
+RMSE_train: 3.3368914912332515
+------------------------------------------------------
+SRCC_test: 0.9518426435877261
+KRCC_test: 0.8098610018358247
+PLCC_test: 0.9665712188492174
+RMSE_test: 5.21375720058816
+======================================================
+ -- 14.26 seconds elapsed...
+
+
+🔁 Iteration 6/6 using the same train-test split
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params: {'C': 128.0, 'gamma': 0.001953125}
+SRCC_train: 0.9819180581865319
+KRCC_train: 0.8864396284829722
+PLCC_train: 0.9841263151006271
+RMSE_train: 3.3368914912332515
+------------------------------------------------------
+SRCC_test: 0.9518426435877261
+KRCC_test: 0.8098610018358247
+PLCC_test: 0.9665712188492174
+RMSE_test: 5.21375720058816
+======================================================
+ -- 14.23 seconds elapsed...
+
+======================================================
+Average training results:
+SRCC Train: mean=0.9819, median=0.9819, std=0.0000
+KRCC Train: mean=0.8864, median=0.8864, std=0.0000
+PLCC Train: mean=0.9841, median=0.9841, std=0.0000
+RMSE Train: mean=3.3369, median=3.3369, std=0.0000
+------------------------------------------------------
+Average testing results:
+SRCC Test: mean=0.9518, median=0.9518, std=0.0000
+KRCC Test: mean=0.8099, median=0.8099, std=0.0000
+PLCC Test: mean=0.9666, median=0.9666, std=0.0000
+RMSE Test: mean=5.2138, median=5.2138, std=0.0000
+======================================================
+
+✅ Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, num_iterations=6)
+
+🔁 Iteration 1/6 using the same train-test split
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params: {'C': 128.0, 'gamma': 0.001953125}
+SRCC_train: 0.982644262783604
+KRCC_train: 0.8909813842695913
+PLCC_train: 0.9868951562985726
+RMSE_train: 2.908440050000073
+------------------------------------------------------
+SRCC_test: 0.8798237608182532
+KRCC_test: 0.6923682140047206
+PLCC_test: 0.9094565006276712
+RMSE_test: 9.27384740088868
+======================================================
+ -- 15.72 seconds elapsed...
+
+
+🔁 Iteration 2/6 using the same train-test split
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params: {'C': 128.0, 'gamma': 0.001953125}
+SRCC_train: 0.982644262783604
+KRCC_train: 0.8909813842695913
+PLCC_train: 0.9868951562985726
+RMSE_train: 2.908440050000073
+------------------------------------------------------
+SRCC_test: 0.8798237608182532
+KRCC_test: 0.6923682140047206
+PLCC_test: 0.9094565006276712
+RMSE_test: 9.27384740088868
+======================================================
+ -- 24.63 seconds elapsed...
+
+
+🔁 Iteration 3/6 using the same train-test split
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params: {'C': 128.0, 'gamma': 0.001953125}
+SRCC_train: 0.982644262783604
+KRCC_train: 0.8909813842695913
+PLCC_train: 0.9868951562985726
+RMSE_train: 2.908440050000073
+------------------------------------------------------
+SRCC_test: 0.8798237608182532
+KRCC_test: 0.6923682140047206
+PLCC_test: 0.9094565006276712
+RMSE_test: 9.27384740088868
+======================================================
+ -- 14.87 seconds elapsed...
+
+
+🔁 Iteration 4/6 using the same train-test split
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params: {'C': 128.0, 'gamma': 0.001953125}
+SRCC_train: 0.982644262783604
+KRCC_train: 0.8909813842695913
+PLCC_train: 0.9868951562985726
+RMSE_train: 2.908440050000073
+------------------------------------------------------
+SRCC_test: 0.8798237608182532
+KRCC_test: 0.6923682140047206
+PLCC_test: 0.9094565006276712
+RMSE_test: 9.27384740088868
+======================================================
+ -- 14.64 seconds elapsed...
+
+
+🔁 Iteration 5/6 using the same train-test split
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params: {'C': 128.0, 'gamma': 0.001953125}
+SRCC_train: 0.982644262783604
+KRCC_train: 0.8909813842695913
+PLCC_train: 0.9868951562985726
+RMSE_train: 2.908440050000073
+------------------------------------------------------
+SRCC_test: 0.8798237608182532
+KRCC_test: 0.6923682140047206
+PLCC_test: 0.9094565006276712
+RMSE_test: 9.27384740088868
+======================================================
+ -- 14.52 seconds elapsed...
+
+
+🔁 Iteration 6/6 using the same train-test split
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params: {'C': 128.0, 'gamma': 0.001953125}
+SRCC_train: 0.982644262783604
+KRCC_train: 0.8909813842695913
+PLCC_train: 0.9868951562985726
+RMSE_train: 2.908440050000073
+------------------------------------------------------
+SRCC_test: 0.8798237608182532
+KRCC_test: 0.6923682140047206
+PLCC_test: 0.9094565006276712
+RMSE_test: 9.27384740088868
+======================================================
+ -- 14.27 seconds elapsed...
+
+======================================================
+Average training results:
+SRCC Train: mean=0.9826, median=0.9826, std=0.0000
+KRCC Train: mean=0.8910, median=0.8910, std=0.0000
+PLCC Train: mean=0.9869, median=0.9869, std=0.0000
+RMSE Train: mean=2.9084, median=2.9084, std=0.0000
+------------------------------------------------------
+Average testing results:
+SRCC Test: mean=0.8798, median=0.8798, std=0.0000
+KRCC Test: mean=0.6924, median=0.6924, std=0.0000
+PLCC Test: mean=0.9095, median=0.9095, std=0.0000
+RMSE Test: mean=9.2738, median=9.2738, std=0.0000
+======================================================
+
+✅ Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=6, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 128.0, 'gamma': 0.001953125}
+SRCC_train: 0.9819180581865319
+KRCC_train: 0.8864396284829722
+PLCC_train: 0.9841263151006271
+RMSE_train: 3.3368914912332515
+======================================================
+SRCC_test: 0.9518426435877261
+KRCC_test: 0.8098610018358247
+PLCC_test: 0.9665712188492174
+RMSE_test: 5.21375720058816
+======================================================
+ -- 15.32 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 128.0, 'gamma': 0.001953125}
+SRCC_train: 0.982644262783604
+KRCC_train: 0.8909813842695913
+PLCC_train: 0.9868951562985726
+RMSE_train: 2.908440050000073
+======================================================
+SRCC_test: 0.8798237608182532
+KRCC_test: 0.6923682140047206
+PLCC_test: 0.9094565006276712
+RMSE_test: 9.27384740088868
+======================================================
+ -- 14.31 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 1024.0, 'gamma': 0.0009765625}
+SRCC_train: 0.989188239456016
+KRCC_train: 0.9149744040378993
+PLCC_train: 0.9914175242679174
+RMSE_train: 2.547304973185755
+======================================================
+SRCC_test: 0.8901798736023333
+KRCC_test: 0.7254901960784312
+PLCC_test: 0.9343433377500435
+RMSE_test: 6.034766630016546
+======================================================
+ -- 14.57 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 256.0, 'gamma': 0.0009765625}
+SRCC_train: 0.9784936940506932
+KRCC_train: 0.875012504412001
+PLCC_train: 0.9821081352273059
+RMSE_train: 3.5534461702179643
+======================================================
+SRCC_test: 0.9525939301340368
+KRCC_test: 0.8207282913165265
+PLCC_test: 0.9676133842187671
+RMSE_test: 5.084656256548534
+======================================================
+ -- 14.55 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.0078125}
+SRCC_train: 0.9708953814903709
+KRCC_train: 0.8586812804453723
+PLCC_train: 0.9768211776447087
+RMSE_train: 4.08242851166682
+======================================================
+SRCC_test: 0.8189735398291547
+KRCC_test: 0.6204481792717086
+PLCC_test: 0.8274945279841963
+RMSE_test: 10.863702073425893
+======================================================
+ -- 14.92 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 32.0, 'gamma': 0.00390625}
+SRCC_train: 0.9784807008710974
+KRCC_train: 0.8756784968684758
+PLCC_train: 0.9824108015899116
+RMSE_train: 3.543705286717766
+======================================================
+SRCC_test: 0.878880477810959
+KRCC_test: 0.6983193277310924
+PLCC_test: 0.9063518717641715
+RMSE_test: 8.341959284901321
+======================================================
+ -- 14.27 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.9803, median=0.9802, std=0.0055
+KRCC Train: mean=0.8836, median=0.8811, std=0.0173
+PLCC Train: mean=0.9840, median=0.9833, std=0.0045
+RMSE Train: mean=3.3287, median=3.4403, std=0.4920
+======================================================
+Average testing results:
+SRCC Test: mean=0.8954, median=0.8850, std=0.0463
+KRCC Test: mean=0.7279, median=0.7119, std=0.0696
+PLCC Test: mean=0.9186, median=0.9219, std=0.0474
+RMSE Test: mean=7.4688, median=7.1884, std=2.1745
+
+
+Finished 6 iterations.
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=10, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 256.0, 'gamma': 0.0009765625}
+SRCC_train: 0.977367085231589
+KRCC_train: 0.8728654262156412
+PLCC_train: 0.9808724983362009
+RMSE_train: 3.6157521772449077
+======================================================
+SRCC_test: 0.9410354051927616
+KRCC_test: 0.7922895357985837
+PLCC_test: 0.9546727115105282
+RMSE_test: 6.209484518786541
+======================================================
+ -- 15.18 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.0078125}
+SRCC_train: 0.9673391594581572
+KRCC_train: 0.846590118302018
+PLCC_train: 0.9714815703689214
+RMSE_train: 4.48861004287887
+======================================================
+SRCC_test: 0.9300784776720605
+KRCC_test: 0.7666666666666665
+PLCC_test: 0.9492186039507241
+RMSE_test: 6.268558013864928
+======================================================
+ -- 14.70 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.0078125}
+SRCC_train: 0.9732668917092442
+KRCC_train: 0.8648871994131883
+PLCC_train: 0.9779686559718854
+RMSE_train: 3.9461304729075404
+======================================================
+SRCC_test: 0.8950621570942425
+KRCC_test: 0.7142857142857142
+PLCC_test: 0.8932288125041559
+RMSE_test: 8.90257375997144
+======================================================
+ -- 14.77 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.0078125}
+SRCC_train: 0.9674884213864293
+KRCC_train: 0.847890314020345
+PLCC_train: 0.9722196316434799
+RMSE_train: 4.450570523258803
+======================================================
+SRCC_test: 0.9413186467348542
+KRCC_test: 0.7941253606084447
+PLCC_test: 0.9683664112205345
+RMSE_test: 4.858826950588391
+======================================================
+ -- 14.37 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 16.0, 'gamma': 0.0078125}
+SRCC_train: 0.9826150190911639
+KRCC_train: 0.8894430874740767
+PLCC_train: 0.9858491254069878
+RMSE_train: 3.2146330048685168
+======================================================
+SRCC_test: 0.8841348556490987
+KRCC_test: 0.704647676161919
+PLCC_test: 0.8651062240123324
+RMSE_test: 9.493411031608169
+======================================================
+ -- 15.02 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.0078125}
+SRCC_train: 0.9724107330698308
+KRCC_train: 0.8613129943484958
+PLCC_train: 0.9788997758775514
+RMSE_train: 3.951163633010491
+======================================================
+SRCC_test: 0.8942298081728367
+KRCC_test: 0.7091454272863568
+PLCC_test: 0.8711708962742656
+RMSE_test: 8.961093491485542
+======================================================
+ -- 15.04 seconds elapsed...
+
+
+Namespace(model_name='GAME', dataset_name='LIVE-Meta-Gaming', feature_file='E:/FOLDER/computer_vision/GAMIVAL-main/feat_files/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_feats.mat', out_file='E:/FOLDER/computer_vision/GAMIVAL-main/result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr', predicted_score='E:/FOLDER/computer_vision/GAMIVAL-main/predicted_score/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_predicted_score.mat', best_parameter='E:/FOLDER/computer_vision/GAMIVAL-main/best_pamtr/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_pamtr', log_file='E:/FOLDER/computer_vision/GAMIVAL-main/logs/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR.log', log_short=False, use_parallel=False, num_iterations=10, max_thread_count=4)
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 256.0, 'gamma': 0.0009765625}
+SRCC_train: 0.977367085231589
+KRCC_train: 0.8728654262156412
+PLCC_train: 0.9808724983362009
+RMSE_train: 3.6157521772449077
+======================================================
+SRCC_test: 0.9410354051927616
+KRCC_test: 0.7922895357985837
+PLCC_test: 0.9546727115105282
+RMSE_test: 6.209484518786541
+======================================================
+ -- 15.30 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.0078125}
+SRCC_train: 0.9673391594581572
+KRCC_train: 0.846590118302018
+PLCC_train: 0.9714815703689214
+RMSE_train: 4.48861004287887
+======================================================
+SRCC_test: 0.9300784776720605
+KRCC_test: 0.7666666666666665
+PLCC_test: 0.9492186039507241
+RMSE_test: 6.268558013864928
+======================================================
+ -- 14.80 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.0078125}
+SRCC_train: 0.9732668917092442
+KRCC_train: 0.8648871994131883
+PLCC_train: 0.9779686559718854
+RMSE_train: 3.9461304729075404
+======================================================
+SRCC_test: 0.8950621570942425
+KRCC_test: 0.7142857142857142
+PLCC_test: 0.8932288125041559
+RMSE_test: 8.90257375997144
+======================================================
+ -- 14.71 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.0078125}
+SRCC_train: 0.9674884213864293
+KRCC_train: 0.847890314020345
+PLCC_train: 0.9722196316434799
+RMSE_train: 4.450570523258803
+======================================================
+SRCC_test: 0.9413186467348542
+KRCC_test: 0.7941253606084447
+PLCC_test: 0.9683664112205345
+RMSE_test: 4.858826950588391
+======================================================
+ -- 14.21 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 16.0, 'gamma': 0.0078125}
+SRCC_train: 0.9826150190911639
+KRCC_train: 0.8894430874740767
+PLCC_train: 0.9858491254069878
+RMSE_train: 3.2146330048685168
+======================================================
+SRCC_test: 0.8841348556490987
+KRCC_test: 0.704647676161919
+PLCC_test: 0.8651062240123324
+RMSE_test: 9.493411031608169
+======================================================
+ -- 14.94 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.0078125}
+SRCC_train: 0.9724107330698308
+KRCC_train: 0.8613129943484958
+PLCC_train: 0.9788997758775514
+RMSE_train: 3.951163633010491
+======================================================
+SRCC_test: 0.8942298081728367
+KRCC_test: 0.7091454272863568
+PLCC_test: 0.8711708962742656
+RMSE_test: 8.961093491485542
+======================================================
+ -- 15.17 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 16.0, 'gamma': 0.0078125}
+SRCC_train: 0.9827702426760276
+KRCC_train: 0.8896785389721368
+PLCC_train: 0.9855413509708859
+RMSE_train: 3.2729369254903666
+======================================================
+SRCC_test: 0.7571914716299741
+KRCC_test: 0.569187675070028
+PLCC_test: 0.752581998516257
+RMSE_test: 12.060995446398815
+======================================================
+ -- 14.70 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 256.0, 'gamma': 0.0009765625}
+SRCC_train: 0.9809916851226761
+KRCC_train: 0.8841702086340729
+PLCC_train: 0.984894826941972
+RMSE_train: 3.2539527969552506
+======================================================
+SRCC_test: 0.90294256490952
+KRCC_test: 0.7351167060057697
+PLCC_test: 0.9182598952272624
+RMSE_test: 8.034154684272364
+======================================================
+ -- 14.51 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 64.0, 'gamma': 0.001953125}
+SRCC_train: 0.9734253217234357
+KRCC_train: 0.8612421992220424
+PLCC_train: 0.9777208337829373
+RMSE_train: 3.956039652443694
+======================================================
+SRCC_test: 0.9056113296616838
+KRCC_test: 0.7382638342512456
+PLCC_test: 0.9173212981345775
+RMSE_test: 7.886446799446619
+======================================================
+ -- 14.41 seconds elapsed...
+
+
+Fitting 8 folds for each of 50 candidates, totalling 400 fits
+======================================================
+params:  {'C': 8.0, 'gamma': 0.00390625}
+SRCC_train: 0.9504784349779744
+KRCC_train: 0.8214110186708635
+PLCC_train: 0.9620564670698055
+RMSE_train: 5.116506260438619
+======================================================
+SRCC_test: 0.9113619001319535
+KRCC_test: 0.7389355742296918
+PLCC_test: 0.9070701771113482
+RMSE_test: 8.530029632097067
+======================================================
+ -- 14.79 seconds elapsed...
+
+
+======================================================
+Average training results:
+SRCC Train: mean=0.9728, median=0.9733, std=0.0092
+KRCC Train: mean=0.8639, median=0.8631, std=0.0205
+PLCC Train: mean=0.9778, median=0.9784, std=0.0071
+RMSE Train: mean=3.9266, median=3.9486, std=0.5909
+======================================================
+Average testing results:
+SRCC Test: mean=0.8963, median=0.9043, std=0.0500
+KRCC Test: mean=0.7263, median=0.7367, std=0.0605
+PLCC Test: mean=0.8997, median=0.9122, std=0.0588
+RMSE Test: mean=8.1206, median=8.2821, std=1.9152
+
+
+Finished 10 iterations.
