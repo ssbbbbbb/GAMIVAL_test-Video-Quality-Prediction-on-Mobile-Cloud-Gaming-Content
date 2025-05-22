@@ -51,7 +51,8 @@ input Metadata/LIVE-Meta-MobileCloudGaming_metadata
 output result/LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr.mat
 ```
 
-LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr.mat裡表格的內容分別是
+LIVE-Meta-Mobile-Cloud-Gaming_GAMIVAL_SVR_corr.mat裡表格的內容分別是:
+
 第一次:SRCC_train|KRCC_train|PLCC_train|RMSE_train|SRCC_test|KRCC_test|PLCC_test|RMSE_test
 第二次:...
 ...
