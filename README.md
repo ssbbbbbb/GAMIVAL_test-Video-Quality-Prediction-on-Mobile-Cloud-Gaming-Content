@@ -1,5 +1,7 @@
 ﻿# GAMIVAL_test-Video-Quality-Prediction-on-Mobile-Cloud-Gaming-Content
 
+本專案將 CNN 特徵與 NSS（自然統計特性）特徵從行動雲端遊戲影像中萃取、合併後，以支持向量回歸 (SVR) 模型預測主觀影像品質指標，評估行動雲端遊戲內容的視覺品質。
+
 ## 第一步
 利用CNN對影片資料集進行影片特徵提取
 
